@@ -16,109 +16,32 @@ coherentes con la educación en valores. En palabras de Richard Stallman (fundad
 enseñar a los estudiantes a usar software libre y participar en su comunidad es una lección de civismo
 práctica, pues aprenden con el ejemplo que el modelo colaborativo y solidario beneficia a la sociedad por encima del lucro individual [3]. Compartir software y conocimientos libremente —lejos de ser “piratería”— se convierte en un acto positivo que refuerza la generosidad y el trabajo en equipo. Este proyecto, por 1tanto, tendrá un impacto en la **formación en valores**: los alumnos internalizarán la importancia de compartir recursos, ayudar a sus pares y contribuir a una comunidad global de conocimiento abierto.
 
-**Ventajas económicas y estratégicas**: En el ámbito práctico, la adopción de software libre conlleva ahorro
-de costes y promueve la sostenibilidad. Las licencias libres permiten copiar e instalar legalmente
-aplicaciones en todos los equipos necesarios sin incurrir en gastos adicionales 4 . Esto facilita que los
-alumnos dispongan en casa de las mismas herramientas usadas en el centro, de forma 100% legal y
-gratuita, reduciendo la brecha digital entre quienes tienen acceso a software y quienes no 4 . Los fondos
-públicos ahorrados en licencias propietarias pueden redirigirse a otras necesidades educativas (mejora de
-infraestructuras, formación del profesorado, adquisición de más dispositivos, etc.). Adicionalmente, el uso
-de estándares abiertos y formatos libres garantiza la interoperabilidad y preservación de la información a
-largo plazo, evitando la obsolescencia de archivos y la dependencia de un solo proveedor 5 . De esta
-manera, la OSL contribuirá tanto a la eficiencia económica como a la resiliencia tecnológica del instituto.
-En resumen, la creación de una mini Oficina de Software Libre en el IES Puerto de la Cruz se justifica por su
-aportación pedagógica, estratégica y axiológica. El proyecto fomenta la soberanía tecnológica
-institucional, refuerza la competencia digital crítica de la comunidad educativa y promueve una cultura de
-colaboración y conocimiento libre. Además, encaja con objetivos globales de modernización educativa y de
-uso eficiente de los recursos, situando al centro a la vanguardia en el fomento del software libre en la
-enseñanza secundaria.
-2. Objetivos operativos de la mini OSL
-La Oficina de Software Libre del IES Puerto de la Cruz tendrá una misión claramente definida y una serie de
-objetivos operativos concretos orientados a promover, apoyar y formar en materia de software libre
-dentro de la comunidad educativa. A continuación se enumeran los objetivos principales:
-• Promoción y divulgación del software libre: Dar a conocer entre el profesorado, alumnado y
-familias las ventajas del software libre, impulsando su uso cotidiano. La OSL actuará como punto de
-referencia en el centro para informar sobre herramientas libres alternativas en todos los ámbitos
-(ofimática, recursos educativos, creación multimedia, etc.), mediante charlas, boletines o campañas
-de difusión.
-• Asesoramiento e implantación técnica: Prestar apoyo técnico a quienes deseen instalar o probar
-software libre. Esto incluye ayudar en la instalación de sistemas operativos libres (p. ej.
-distribuciones GNU/Linux) en equipos del centro o personales de alumnos y profesores, así como la
-configuración de aplicaciones libres (LibreOffice, GIMP, Moodle, etc.). La OSL fomentará que ningún
-miembro de la comunidad se sienta limitado por usar software libre, asegurándose de que los
-recursos educativos y plataformas del instituto sean accesibles con software de código abierto y
-formatos estándar 5 . En la medida de lo posible, se identificarán áreas donde migrar de soluciones
-privativas a libres y se acompañará técnicamente ese proceso.
-• Formación en licencias y cultura libre: Ofrecer formación básica sobre licencias de software y
-contenidos (GPL, Creative Commons y similares) para que docentes y estudiantes comprendan los
-derechos y obligaciones al usar, crear o compartir material. Este objetivo abarca la realización de
-talleres o seminarios sobre propiedad intelectual, derechos de autor en el entorno digital y cómo
-liberar sus propios proyectos bajo licencias abiertas. La idea es capacitar al alumnado para ser no
-2solo consumidor sino creador responsable de contenidos digitales, entendiendo cómo aplicar
-licencias libres a sus trabajos escolares (ej. proyectos de Tecnología, programación, arte digital, etc.).
-• Integración curricular y apoyo docente: Colaborar con departamentos didácticos para incorporar
-herramientas libres en la práctica docente. Por ejemplo, asesorar a profesorado de Informática
-en el uso de lenguajes y entornos de programación libres, a docentes de Ciencias en software de
-análisis de datos libre, o a departamentos de Humanidades en la creación de recursos educativos
-abiertos. La OSL puede elaborar guías breves y material de apoyo para facilitar que los profesores
-utilicen software libre en sus asignaturas, aumentando la presencia de estas herramientas en el
-currículo de forma transversal.
-• Fomento de valores de colaboración y participación: Incentivar la participación activa del
-alumnado en proyectos colaborativos relacionados con software libre. Esto podría concretarse en la
-creación de un pequeño club de estudiantes voluntarios (ej. “Brigada Tecnológica Libre”) que,
-coordinados por la OSL, emprendan actividades como documentar manuales sencillos, brindar
-soporte básico a compañeros o desarrollar pequeñas aplicaciones/utilidades para el centro. Se
-buscará inculcar en los participantes valores de trabajo en equipo, solidaridad tecnológica y
-aprendizaje compartido, en línea con la ética del software libre 3 .
-• Elaboración y publicación de recursos abiertos: Impulsar que tanto profesores como alumnos
-generen contenidos y software con licencias libres y los compartan públicamente. La OSL
-apoyará iniciativas donde el alumnado publique, por ejemplo, guías, tutoriales o pequeños
-desarrollos bajo licencias abiertas, reconociendo su autoría. Un objetivo concreto es establecer un
-repositorio o sección en la web del centro para alojar estos recursos libres creados en el instituto. De
-esta manera, se potencia la creatividad del alumnado y se le dota de una plataforma para difundir
-su trabajo con orgullo y con respeto a la legalidad (sin ceder derechos exclusivos, permitiendo la
-reutilización). Este esfuerzo sigue el modelo universitario donde se fomenta que los estudiantes
-publiquen sus proyectos con licencias libres, reforzando valores de libertad y cooperación 6 .
-• Soporte y consulta permanente: Actuar como oficina de consulta para cualquier miembro del
-centro que tenga dudas sobre software libre. La OSL atenderá consultas sobre equivalencias de
-software (qué alternativa libre usar en lugar de una aplicación privativa), resolverá incidencias
-básicas y canalizará peticiones o necesidades al respecto. En fases posteriores, incluso podría
-ofrecer soporte limitado a familias (por ejemplo, orientación para instalar software libre en
-ordenadores domésticos de alumnos que lo soliciten).
-Todos estos objetivos operativos se irán implementando progresivamente, acorde con los recursos y la
-participación disponible. En conjunto, definen un proyecto operativo integral: la mini OSL será a la vez un
-motor de cambio tecnológico (introduciendo nuevas herramientas libres), un centro de formación
-(capacitaciones en licencias y uso de software) y un nodo de apoyo (asistencia técnica y moral en la
-migración hacia entornos libres).
-3. Modalidad de integración en el centro educativo
-Un aspecto clave de la propuesta es determinar cómo se integrará la OSL en la vida orgánica del
-instituto, atendiendo a la normativa educativa vigente y a las figuras de proyectos existentes. Se barajan
-tres modalidades principales: actividad complementaria, actividad extraescolar o proyecto permanente
-3incluido en la Programación General Anual (PGA) del centro. A continuación se analizan estas opciones y se
-propone la vía más adecuada:
-• Actividad complementaria: Consistiría en plantear las actividades de la OSL dentro del horario
-lectivo, complementando el currículo. Por ejemplo, talleres de software libre incluidos en sesiones de
-tutoría, o un proyecto de centro que se desarrolla en horas de clase con uno o varios grupos. Esta
-modalidad permitiría llegar a todo el alumnado de forma integrada, pero presenta retos
-organizativos: requeriría aprobación en CCP (Comisión de Coordinación Pedagógica) y Claustro,
-ajustar horarios, y posiblemente contar con la participación de varios departamentos para encaje
-curricular. Dado que inicialmente la OSL estará liderada por un único profesor y el proyecto está en
-fase piloto, la modalidad complementaria podría ser difícil de implementar de inmediato por la
-rigidez de horarios y programas oficiales.
-• Actividad extraescolar: En este formato, la OSL operaría como un taller o club voluntario fuera
-del horario lectivo (ej. una tarde a la semana). Esto brinda mayor flexibilidad, pues la participación
-del alumnado sería voluntaria y no tendría que ajustarse al currículo formal. Se podría iniciar la OSL
-como extraescolar para probar su funcionamiento a pequeña escala: por ejemplo, un club de
-software libre abierto a alumnos interesados de distintos niveles, con sesiones prácticas después
-de clase. La ventaja es la facilidad de puesta en marcha (basta la aprobación de la dirección y recabar
-autorizaciones parentales para los menores participantes), así como la posibilidad de incorporar a
-colaboradores externos en ese horario sin interferir en las clases. Como contrapartida, al ser
-voluntaria, el alcance inicial estaría limitado a aquellos estudiantes y docentes especialmente
-motivados, pudiendo dejar fuera a otros que quizá por desconocimiento no se sumen. También
-implica que el profesor coordinador dedique tiempo extra fuera de su jornada laboral (habría que
-definir si se considera dentro de sus horas de dedicación, o si se realiza de forma voluntaria no
-remunerada, según las posibilidades del centro o ayudas de la AMPA).
-• Proyecto permanente en la PGA: Consiste en incluir formalmente la mini OSL como un proyecto
+**Ventajas económicas y estratégicas**: En el ámbito práctico, la adopción de software libre conlleva ahorro de costes y promueve la sostenibilidad. Las licencias libres permiten copiar e instalar legalmente aplicaciones en todos los equipos necesarios sin incurrir en gastos adicionales 4 . Esto facilita que los alumnos dispongan en casa de las mismas herramientas usadas en el centro, de forma 100% legal y gratuita, reduciendo la brecha digital entre quienes tienen acceso a software y quienes no 4 . Los fondos públicos ahorrados en licencias propietarias pueden redirigirse a otras necesidades educativas (mejora de infraestructuras, formación del profesorado, adquisición de más dispositivos, etc.). Adicionalmente, el uso de estándares abiertos y formatos libres garantiza la interoperabilidad y preservación de la información a largo plazo, evitando la obsolescencia de archivos y la dependencia de un solo proveedor 5 . De esta manera, la OSL contribuirá tanto a la eficiencia económica como a la resiliencia tecnológica del instituto.
+
+En resumen, la creación de una mini Oficina de Software Libre en el IES Puerto de la Cruz se justifica por su aportación pedagógica, estratégica y axiológica. El proyecto fomenta la soberanía tecnológica institucional, refuerza la competencia digital crítica de la comunidad educativa y promueve una cultura de colaboración y conocimiento libre. Además, encaja con objetivos globales de modernización educativa y de uso eficiente de los recursos, situando al centro a la vanguardia en el fomento del software libre en la enseñanza secundaria.
+
+## 2. Objetivos operativos de la mini OSL
+
+La Oficina de Software Libre del IES Puerto de la Cruz tendrá una misión claramente definida y una serie de **objetivos operativos concretos** orientados a promover, apoyar y formar en materia de software libre dentro de la comunidad educativa. A continuación se enumeran los objetivos principales:
+
+* **Promoción y divulgación del software libre**: Dar a conocer entre el profesorado, alumnado y familias las ventajas del software libre, impulsando su uso cotidiano. La OSL actuará como punto de referencia en el centro para informar sobre herramientas libres alternativas en todos los ámbitos (ofimática, recursos educativos, creación multimedia, etc.), mediante charlas, boletines o campañas de difusión.
+* **Asesoramiento e implantación técnica**: Prestar apoyo técnico a quienes deseen instalar o probar software libre. Esto incluye ayudar en la instalación de sistemas operativos libres (p. ej. distribuciones GNU/Linux) en equipos del centro o personales de alumnos y profesores, así como la configuración de aplicaciones libres (LibreOffice, GIMP, Moodle, etc.). La OSL fomentará que ningún miembro de la comunidad se sienta limitado por usar software libre, asegurándose de que los recursos educativos y plataformas del instituto sean accesibles con software de código abierto y formatos estándar [5] . En la medida de lo posible, se identificarán áreas donde migrar de soluciones privativas a libres y se acompañará técnicamente ese proceso.
+* **Formación en licencias y cultura libre**: Ofrecer formación básica sobre licencias de software y contenidos (GPL, Creative Commons y similares) para que docentes y estudiantes comprendan los derechos y obligaciones al usar, crear o compartir material. Este objetivo abarca la realización de talleres o seminarios sobre propiedad intelectual, derechos de autor en el entorno digital y cómo liberar sus propios proyectos bajo licencias abiertas. La idea es capacitar al alumnado para ser no 2solo consumidor sino creador responsable de contenidos digitales, entendiendo cómo aplicar licencias libres a sus trabajos escolares (ej. proyectos de Tecnología, programación, arte digital, etc.).
+* **Integración curricular y apoyo docente**: Colaborar con departamentos didácticos para incorporar herramientas libres en la práctica docente. Por ejemplo, asesorar a profesorado de Informática en el uso de lenguajes y entornos de programación libres, a docentes de Ciencias en software de análisis de datos libre, o a departamentos de Humanidades en la creación de recursos educativos abiertos. La OSL puede elaborar guías breves y material de apoyo para facilitar que los profesores utilicen software libre en sus asignaturas, aumentando la presencia de estas herramientas en el currículo de forma transversal.
+* **Fomento de valores de colaboración y participación**: Incentivar la participación activa del alumnado en proyectos colaborativos relacionados con software libre. Esto podría concretarse en la creación de un pequeño club de estudiantes voluntarios (ej. “Brigada Tecnológica Libre”) que,coordinados por la OSL, emprendan actividades como documentar manuales sencillos, brindar soporte básico a compañeros o desarrollar pequeñas aplicaciones/utilidades para el centro. Se buscará inculcar en los participantes valores de trabajo en equipo, solidaridad tecnológica y aprendizaje compartido, en línea con la ética del software libre [3].
+* **Elaboración y publicación de recursos abiertos**: Impulsar que tanto profesores como alumnos generen contenidos y software con licencias libres y los compartan públicamente. La OSL apoyará iniciativas donde el alumnado publique, por ejemplo, guías, tutoriales o pequeños desarrollos bajo licencias abiertas, reconociendo su autoría. Un objetivo concreto es establecer un repositorio o sección en la web del centro para alojar estos recursos libres creados en el instituto. De esta manera, se potencia la creatividad del alumnado y se le dota de una plataforma para difundir su trabajo con orgullo y con respeto a la legalidad (sin ceder derechos exclusivos, permitiendo la reutilización). Este esfuerzo sigue el modelo universitario donde se fomenta que los estudiantes publiquen sus proyectos con licencias libres, reforzando valores de libertad y cooperación 6 .
+* **Soporte y consulta permanente**: Actuar como oficina de consulta para cualquier miembro del centro que tenga dudas sobre software libre. La OSL atenderá consultas sobre equivalencias de software (qué alternativa libre usar en lugar de una aplicación privativa), resolverá incidencias básicas y canalizará peticiones o necesidades al respecto. En fases posteriores, incluso podría ofrecer soporte limitado a familias (por ejemplo, orientación para instalar software libre en ordenadores domésticos de alumnos que lo soliciten).
+
+Todos estos objetivos operativos se irán implementando progresivamente, acorde con los recursos y la participación disponible. En conjunto, definen un proyecto operativo integral: la mini OSL será a la vez un motor de cambio tecnológico (introduciendo nuevas herramientas libres), un centro de formación (capacitaciones en licencias y uso de software) y un nodo de apoyo (asistencia técnica y moral en la migración hacia entornos libres).
+
+## 3. Modalidad de integración en el centro educativo
+
+Un aspecto clave de la propuesta es determinar cómo se integrará la OSL en la vida orgánica del instituto, atendiendo a la normativa educativa vigente y a las figuras de proyectos existentes. Se barajan tres modalidades principales: actividad complementaria, actividad extraescolar o proyecto permanente 3incluido en la Programación General Anual (PGA) del centro. A continuación se analizan estas opciones y se propone la vía más adecuada:
+
+* **Actividad complementaria**: Consistiría en plantear las actividades de la OSL dentro del horario
+lectivo, complementando el currículo. Por ejemplo, talleres de software libre incluidos en sesiones de tutoría, o un proyecto de centro que se desarrolla en horas de clase con uno o varios grupos. Esta modalidad permitiría llegar a todo el alumnado de forma integrada, pero presenta retos organizativos: requeriría aprobación en CCP (Comisión de Coordinación Pedagógica) y Claustro, ajustar horarios, y posiblemente contar con la participación de varios departamentos para encaje curricular. Dado que inicialmente la OSL estará liderada por un único profesor y el proyecto está en fase piloto, la modalidad complementaria podría ser difícil de implementar de inmediato por la rigidez de horarios y programas oficiales.
+* **Actividad extraescolar**: En este formato, la OSL operaría como un taller o club voluntario fuera del horario lectivo (ej. una tarde a la semana). Esto brinda mayor flexibilidad, pues la participación del alumnado sería voluntaria y no tendría que ajustarse al currículo formal. Se podría iniciar la OSL como extraescolar para probar su funcionamiento a pequeña escala: por ejemplo, un club de software libre abierto a alumnos interesados de distintos niveles, con sesiones prácticas después de clase. La ventaja es la facilidad de puesta en marcha (basta la aprobación de la dirección y recabar autorizaciones parentales para los menores participantes), así como la posibilidad de incorporar a colaboradores externos en ese horario sin interferir en las clases. Como contrapartida, al ser voluntaria, el alcance inicial estaría limitado a aquellos estudiantes y docentes especialmente motivados, pudiendo dejar fuera a otros que quizá por desconocimiento no se sumen. También implica que el profesor coordinador dedique tiempo extra fuera de su jornada laboral (habría que definir si se considera dentro de sus horas de dedicación, o si se realiza de forma voluntaria no remunerada, según las posibilidades del centro o ayudas de la AMPA).
+* **Proyecto permanente en la PGA**: Consiste en incluir formalmente la mini OSL como un proyecto
 institucional del centro, recogido en la Programación General Anual y, por ende, con
 reconocimiento oficial en la planificación del curso. Esta vía conferiría mayor estabilidad y visibilidad
 al proyecto. Podría conceptualizarse como un Proyecto de Innovación Educativa o de
