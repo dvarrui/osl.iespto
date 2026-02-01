@@ -37,3 +37,46 @@ https://www.xataka.com/aplicaciones/he-decidido-independizarme-toda-tecnologia-e
 
 ---
 
+https://x.com/HackingTeam777/status/2017350336743162182
+
+En 1984, un programador renunció a su trabajo en el MIT sin un plan B, sin inversores y sin un salario. ¿Su razón? Se cansó de ver a las compañías bloquear código que solía ser compartido libremente entre los programadores.
+
+Este es Richard Stallman, y básicamente comenzó una revolución.
+
+De vuelta a principios de los 80, Stallman estaba trabajando en el Laboratorio de Inteligencia Artificial del MIT, rodeado de brillantes programadores que compartían todo. ¿Alguien escribió un código genial? Todo el mundo podría usarlo, mejorarlo y aprender de ello. Así era como funcionaban las cosas en aquel entonces.
+
+Entonces las corporaciones se mudaron. De repente, había licencias, restricciones y software que no podías mirar dentro. Stallman había modificado su vieja impresora para enviar notificaciones cuando se atascó. Cuando llegó una nueva Xerox, quería agregar las mismas características, pero el código fuente estaba bloqueado.
+
+Anunció GNU en 1983. El nombre es un chiste de programador nerd, significa "GNU's Not Unix. "¿Pero qué significa la G en GNU? También GNU. Se refiere a sí mismo, una y otra vez. Humor recursivo, me encanta esa cosa. Su objetivo era construir un sistema operativo completo que fuera libre para siempre. No libre como en "sin dinero", pero libre como en libertad. La libertad de ejecutarlo, estudiarlo, compartirlo y modificarlo como quieras.
+
+La gente pensó que había perdido la cabeza. ¿Por qué alguien trabajaría gratis cuando se puede ganar dinero vendiendo software?
+
+→ En 1990 recibió la MacArthur "Genius Grant" por un valor de 240.000 $
+Su compilador GCC y otras herramientas GNU se convirtieron en la base que Linus Torvalds utilizó para construir Linux
+→ Su idea para una " enciclopedia online gratuita" inspiró directamente lo que se convirtió en Wikipedia
+Convenció a 12.500 escuelas en Kerala, India, para cambiar de Windows a Linux
+→ En 2013 fue incluido en el Salón de la Fama de Internet
+
+El tipo que renunció a su cómodo trabajo en MIT para luchar por la libertad del software terminó dando forma a toda la industria tecnológica. Torvalds usó las herramientas GNU de Stallman para construir Linux. Lo que hoy llamamos "Linux" es en realidad GNU y Linux combinados. Sin su filosofía, todo el movimiento de código abierto podría parecer completamente diferente hoy.
+
+Ahora tiene 72 años, sigue viajando por el mundo, sigue dando charlas sobre la libertad digital, sigue luchando por lo que cree. Y honestamente, le debemos mucho. Cada vez que usas Linux, cada vez que modificas el código de código abierto, cada vez que tienes la libertad de mirar dentro del software que ejecutas, eso es por lo que este hombre comenzó hace más de 40 años.
+
+Lo dejó todo por una idea. Esa idea funciona en internet ahora.
+
+📸 Photo: Tania Victoria / Secretaría de Cultura CDMX (CC)
+
+#ethicalhacking #linux #gnu #richardstallman #freesoftware #opensource #programming #cybersecurity #hacking #infosec #techhistory
+Imagen
+9:32 p. m. · 30 ene. 2026
+·
+91,8 mil
+
+Visualizaciones
+David
+
+Pelafustitch
+@AreolaUnfeed
+·
+31 ene.
+Jajajajaj cómo le inventan cosas, la mitad de la info es falsa XD
+
