@@ -16,7 +16,7 @@ Comunidad educativa de usuarios de la Oficina de Software Libre (OSL) del IES Pu
 
 * **Email**: osl.iespto@proton.me
 * **Telegram**: @osl.iespto
-* **Atención presencial**: Los mafrtes por la tarde en el centro.
+* **Atención presencial**: Martes por la tarde en el centro.
 
 ## Proyecto
 
