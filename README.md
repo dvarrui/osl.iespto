@@ -2,7 +2,8 @@
 
 Comunidad educativa de usuarios de la Oficina de Software Libre (OSL) del IES Puerto de La Cruz (Canarias 🇮🇨).
 
-Objetivos:
+## Objetivos
+
 * Promoción y divulgación del software libre.
 * Asesoramiento e implantación técnica.
 * Formación en licencias y cultura libre.
