@@ -151,229 +151,85 @@ de 17:00-18:00) donde el coordinador esté disponible en el aula designada para 
 Este plan de arranque está diseñado para minimizar riesgos y asegurar una implantación paulatina pero firme. Empezando con acciones sencillas y aumentando progresivamente la escala, la mini OSL podrá consolidarse de forma orgánica. Cada fase tiene objetivos claros y entregables (actividades realizadas, documentación generada, evaluaciones) que permitirán rectificar el rumbo si fuera necesario. Además, se sustenta en recursos realistas: el compromiso principal es humano (la dedicación del profesor coordinador y colaboradores), mientras que las infraestructuras requeridas ya existen en su mayoría (aulas, ordenadores, internet) y los costos son muy reducidos. Con este plan, al cabo de un año la OSL debería estar no solo funcionando, sino integrada en la cultura del centro y lista para dar un salto cualitativo en años venideros.
 
 # 6. Recomendaciones de seguridad técnica y gobernanza
-La puesta en marcha de la OSL conlleva también consideraciones importantes en materia de seguridad
-informática y de gobernanza del proyecto. A continuación se presentan recomendaciones clave para
-garantizar que la OSL opere de forma segura, organizada y sostenible en el tiempo.
-6.1 Seguridad técnica y buenas prácticas TIC:
-• Instalaciones seguras y estables: Cuando se instalen sistemas operativos libres (por ejemplo,
-Linux) en equipos del centro, se recomienda hacerlo sin reemplazar del todo los sistemas existentes
-al inicio (configuración dual boot o en máquinas dedicadas de prueba) para no interrumpir la
-operativa habitual. Cada instalación debe realizarse con versiones estables y LTS (soporte a largo
-plazo) para minimizar errores. Asimismo, mantener siempre actualizado el software es esencial: se
-establecerá una rutina para aplicar actualizaciones de seguridad del sistema operativo y aplicaciones
-libres utilizadas, protegiendo así contra vulnerabilidades.
-• Gestión de usuarios y contraseñas: Si la OSL habilita cuentas de usuario en nuevos sistemas (por
-ejemplo, acceso a un servidor local, o cuentas de editores en la web de la OSL), se implementará una
-política de contraseñas seguras (mínimo 8 caracteres, mezcla de tipos, cambios periódicos si
-aplica) y se educará a los alumnos en no compartir credenciales. El coordinador mantendrá un
-registro seguro de las cuentas administradoras (admin/root) de cualquier sistema instalado, de
-forma que no se pierda el acceso en caso de incidencia. Idealmente, dichas credenciales maestras se
-depositarán de forma confidencial en la dirección del centro o en conocimiento de al menos dos
-personas (por ejemplo, coordinador OSL y coordinador TIC del centro) para garantizar disponibilidad
-y continuidad.
-• Backups y protección de datos: Todo sistema o archivo crítico se respaldará regularmente. Por
-ejemplo, si se monta un servidor web local con contenidos, se programarán copias de seguridad
-semanales a un disco externo o a un almacenamiento en la nube del centro. Igualmente, los
-documentos y recursos generados por la OSL (manuales, códigos fuente, etc.) se conservarán en
-repositorios redundantes: quizá usando un servicio git libre (como GitLab CE en servidor del centro o
-GitHub/GitLab online si se permite) para tener historial de cambios y copias remotas. En caso de
-desastre (pérdida de datos, fallo de un equipo), esta estrategia de backups permitirá restaurar
-rápidamente el servicio sin pérdidas significativas.
-• Seguridad de la red y equipos: Cualquier equipo usado por la OSL debe cumplir con las directrices
-de seguridad del centro: antivirus (en Windows, si se mantienen dual boots), filtrado de contenidos
-adecuado para menores, etc. Al introducir nuevos software, se revisarán sus configuraciones para
-alinearlas con la política de seguridad. Por ejemplo, deshabilitar servicios innecesarios en un
-servidor Linux para reducir superficie de ataque, o forzar conexiones cifradas (HTTPS, SSH) en las
-comunicaciones. Se formará al alumnado participante en prácticas de ciberseguridad básicas: no
-ejecutar binarios desconocidos, cuidado con dispositivos USB externos, etc., creando así un entorno
-seguro en la experimentación con software libre.
-• Aislamiento de pruebas: Si los alumnos van a experimentar con programación, sistemas o
-administración (lo cual es deseable en su aprendizaje), se procurará hacerlo en entornos
-controlados. Por ejemplo, usar máquinas virtuales o contenedores para pruebas peligrosas, de
-12modo que no comprometan el sistema principal. Esto facilita la aprendizaje seguro, permitiendo
-“trastear” con configuraciones sin miedo a dañar equipos de producción. La OSL puede mantener un
-par de PC de laboratorio dedicados a prácticas avanzadas, revirtiendo su estado periódicamente
-(mediante imágenes de sistema) para que siempre estén listos y limpios para el siguiente uso.
-• Cumplimiento de normativas de seguridad: Además de las propias medidas, la OSL se asegurará
-de cumplir con el Esquema Nacional de Seguridad (ENS) en lo que sea aplicable a un centro
-educativo, y con cualquier instrucción que la Consejería indique sobre protección de sistemas.
-Aunque el ENS aplica sobre todo a sistemas de la Administración, es buena guía para calibrar las
-medidas implementadas (ej. control de accesos, copias de respaldo, plan de recuperación ante
-incidentes a pequeña escala, etc.).
-En resumen, la OSL aplicará el principio de seguridad por diseño: incorporar desde el inicio medidas
-proporcionales al nivel de los sistemas que maneja, creando un ambiente fiable tanto para los usuarios
-como para la infraestructura del centro. Así se evitarán incidentes que pudieran afectar la confianza en el
-proyecto (por ejemplo, fallos técnicos graves, pérdidas de información o brechas de seguridad).
-6.2 Gobernanza y organización mínima:
-• Estructura organizativa clara: Al inicio, la OSL estará liderada por un profesor coordinador
-designado. Es recomendable, no obstante, definir un pequeño comité o equipo OSL para repartir
-responsabilidades y asegurar continuidad. Por ejemplo, invitar a uno o dos docentes más
-interesados a formar parte (aunque sea de forma honorífica al principio) y a 2-3 alumnos veteranos
-como representantes estudiantiles. Este comité puede reunirse periódicamente (trimestralmente,
-por ejemplo) para planificar actividades y evaluar avances. Contar con estudiantes en la organización
-además les otorga sentido de pertenencia y les forma en liderazgo.
-• Reglamento interno o normas de funcionamiento: Sin necesidad de excesiva burocracia, es útil
-redactar un documento de funcionamiento de la OSL que cubra: objetivos, actividades que realiza,
-miembros (coordinador, colaboradores, alumnos), derechos y deberes de los participantes, canales
-de comunicación y toma de decisiones. Puede ser un reglamento breve aprobado por la dirección.
-Este documento servirá de referencia para resolver situaciones (por ejemplo, qué hacer si un alumno
-voluntario falta a sesiones, o cómo se integran nuevos docentes al equipo). También puede incluir
-un código de conducta básico (p. ej. uso responsable de recursos, respeto entre miembros, etc.),
-alineado con las normas de convivencia del centro.
-• Comunicación y visibilidad: Establecer desde el inicio mecanismos de comunicación fluida.
-Internamente, quizá un grupo privado (en Telegram, WhatsApp o el medio que la comunidad use)
-para coordinar al equipo OSL día a día. De cara al resto del centro, aprovechar las juntas de
-coordinación o claustros para informar periódicamente de las novedades de la OSL, buscando
-mantener el apoyo institucional y animar a más gente a unirse. Externamente, la OSL podría difundir
-sus logros en redes sociales educativas o en la web del instituto, lo que ayuda a la motivación de los
-participantes al ver reconocida su labor.
-• Documentación y memoria: La buena gobernanza implica registrar lo realizado. El coordinador
-llevará una memoria anual de actividades de la OSL (que al integrarse en la PGA, formaría parte de
-la memoria final de curso del centro). También se anotarán las decisiones importantes tomadas por
-13el equipo en actas o notas compartidas. Esta documentación no solo es útil para transparencia, sino
-que será valiosa si hay rotación de personal: un nuevo coordinador en el futuro podrá revisar el
-historial y entender la evolución del proyecto.
-• Sostenibilidad y relevo: Desde el comienzo se debe pensar en la sostenibilidad del proyecto más
-allá de las personas individuales. Si bien arranca con un profesor, conviene involucrar a más
-docentes (por ejemplo, profesor/a del departamento de Informática, o algún entusiasta de
-Tecnología o Ciencias) para que actúen como sombra o co-coordinadores. Así, si el líder original se
-ausenta o cambia de destino, la OSL no se diluye. Igualmente, identificar alumnos de cursos
-inferiores para que, a medida que los mayores se gradúen, haya una cantera que continúe
-participando. Esta rotación planificada de miembros garantiza la permanencia del proyecto a largo
-plazo.
-• Apoyo de la dirección y coordinación con estructuras del centro: La gobernanza de la OSL debe
-anclarse en la estructura del instituto. Es recomendable que el equipo directivo designe un
-directivo de referencia (por ejemplo, el Vicedirector o Jefe de Estudios adjunto) para hacer
-seguimiento del proyecto y apoyarlo en la toma de decisiones administrativas. Asimismo, se
-mantendrá informada a la Comisión TIC del centro (si existe) o al coordinador TIC de cualquier
-cambio relevante. La OSL debe verse como parte del ecosistema escolar, no un ente aislado; por eso
-su gestión se vincula con las instancias ya establecidas en el organigrama.
-En síntesis, estas medidas de gobernanza asegurarán que la OSL funcione de forma ordenada,
-participativa y resiliente. Un liderazgo distribuido, reglas claras y buena comunicación interna son
-ingredientes para el éxito a largo plazo del proyecto. La mini OSL operará así con profesionalidad y espíritu
-colaborativo, dando ejemplo de la misma filosofía abierta que promueve.
-7. Perspectivas de futuro: ampliación, recursos y colaboraciones
-Aunque la propuesta se centra en el establecimiento inicial de la mini OSL, es pertinente esbozar una visión
-a futuro de cómo podría crecer y generar un mayor impacto, tanto dentro como fuera del centro. A
-continuación se describen algunas líneas de evolución posibles:
-• Ampliación a otros docentes y departamentos: En un escenario optimista, la OSL puede pasar de
-estar liderada por un solo profesor a convertirse en un proyecto colectivo de centro. Docentes de
-diversos departamentos podrían implicarse aportando su perspectiva: por ejemplo, un profesor de
-Ciencias Sociales interesado en software libre para cartografía digital, o un docente de Lengua
-usando editores libres para periódico escolar. Con más docentes, se podría incluso rotar la
-coordinación anualmente o tener co-coordinadores de áreas distintas (tecnología/educación),
-enriqueciendo la iniciativa. La formalización en PGA ayudaría a reconocer estas colaboraciones en
-sus horarios (posiblemente como innovación educativa).
-• Participación más activa del alumnado: A medida que los estudiantes adquieran experiencia, se
-puede dar mayor protagonismo al alumnado en la OSL. Por ejemplo, instaurar una figura de
-“Alumno Mentor” en software libre: estudiantes avanzados (quizá de 1º Bachillerato o últimos cursos
-de ESO) que, tutorizados por el profesor, lideren talleres para compañeros más jóvenes. Esto no solo
-libera carga al docente sino que desarrolla competencias de liderazgo en los alumnos mentores.
-También se pueden crear pequeños grupos de trabajo estudiantiles dentro de la OSL, enfocados
-14en proyectos concretos (un grupo desarrollando la página web del centro con herramientas libres,
-otro creando material audiovisual libre para eventos escolares, etc.). Esta estructura tipo “club”
-estudiantil dará vitalidad y asegurará la continuidad generacional del proyecto.
-• Publicación de recursos y repercusión exterior: Con el tiempo, la OSL del IES Puerto de la Cruz
-puede aspirar a ser un referente más allá del propio instituto. Se podrían publicar en abierto
-todos los materiales elaborados (guías, presentaciones, códigos fuente) en plataformas de mayor
-alcance: por ejemplo, compartiendo recursos en la comunidad educativa canaria (a través de
-Medusa o de eventos como Jornadas TIC) o incluso a nivel nacional mediante repositorios educativos
-abiertos del INTEF/CeDeC. Asimismo, los logros del proyecto podrían presentarse en congresos o
-encuentros de docentes (por ejemplo, en un Simposio de Innovación Educativa de Canarias),
-difundiendo las buenas prácticas y animando a otros centros a replicar la iniciativa. Esta proyección
-externa puede atraer también reconocimientos o apoyos institucionales.
-• Colaboración con otras OSL e instituciones: Un futuro deseable es tejer alianzas con otras
-Oficinas de Software Libre. En el ámbito universitario, Canarias cuenta con la OSL de la ULL y de la
-ULPGC, que podrían brindar apoyo técnico y formativo. Se podría firmar convenios de colaboración
-donde estudiantes universitarios realicen prácticas o proyectos de fin de grado apoyando a la OSL
-del instituto, o donde el instituto participe en actividades organizadas por la universidad (por
-ejemplo, en la Tenerife Lan Party, evento tecnológico donde la OSL-ULL ha estado presente 11 12 ).
-También a nivel de secundaria, si este proyecto tiene éxito, podría impulsarse una red de OSL
-escolares en Tenerife o Canarias, compartiendo experiencias entre institutos. La OSL del IES Puerto
-de la Cruz, por su carácter pionero, podría liderar esa red en el futuro, actuando como nodo central
-de intercambio de conocimiento libre entre centros de la isla.
-• Extensión a la comunidad local: Más allá del entorno educativo, la OSL podría estrechar lazos con
-la comunidad local y las familias. Por ejemplo, organizando jornadas abiertas de migración a
-software libre para padres/madres de alumnos o para ciudadanos interesados (convertir el instituto
-en un pequeño centro de referencia de alfabetización digital libre en el municipio). Esto encajaría
-con la filosofía de apertura a la sociedad y servicio público. Incluso se podría colaborar con el
-ayuntamiento u otras entidades en proyectos puntuales (ej. talleres de ofimática libre en bibliotecas,
-reciclaje de equipos informáticos para donarlos con Linux a familias necesitadas, etc.), siempre
-evaluando los recursos disponibles.
-• Búsqueda de apoyo y financiación adicional: De cara a sostener y ampliar actividades, se podrán
-explorar vías de financiación o apoyo externo. Por ejemplo, presentarse a convocatorias de
-subvenciones para proyectos de innovación educativa o de transformación digital (del Gobierno de
-Canarias, Ministerio de Educación o incluso fondos europeos tipo Erasmus+ que impulsen
-competencias digitales). También contactar con empresas locales de tecnología para posibles
-patrocinios modestos (donación de material, cesión de espacio para eventos). Otra idea es colaborar
-con la AMPA del centro, de modo que esta asociación de padres pueda respaldar logísticamente
-algunas iniciativas (difusión entre familias, co-organización de eventos, etc.). Cualquier entrada de
-recursos se gestionará siempre con transparencia y acorde a las normativas (por ejemplo, las
-donaciones en especie se aceptarían mediante los cauces oficiales de Consejo Escolar si fuera
-necesario).
-15En conclusión, las perspectivas de futuro de la mini OSL son prometedoras: además de consolidarse
-dentro del IES Puerto de la Cruz mejorando la competencia digital y la autonomía tecnológica de su
-comunidad, puede convertirse en un proyecto ejemplar que trascienda sus muros, irradiando la cultura del
-software libre a otros entornos educativos y sociales. La clave estará en mantener el entusiasmo inicial,
-evaluar periódicamente el impacto y adaptarse a nuevos retos y oportunidades. Con apoyo institucional y la
-involucración creciente de más personas, esta Oficina de Software Libre escolar puede perdurar y
-evolucionar, contribuyendo a largo plazo a una educación más libre, colaborativa y soberana
-tecnológicamente.
-Bibliografía y fuentes consultadas:
-• Gobierno de Canarias – El software libre en educación. Razones pedagógicas para su uso en las
-escuelas según Richard Stallman 13 14 .
-• STEILAS (sindicato educativo) – Digitalización en la educación. Importancia de la soberanía tecnológica
-y crítica al tecnofeudalismo en las aulas 1 .
-• VIU Universidad – Software Libre en Educación, ¿Es necesario? Artículo divulgativo sobre ventajas del
-software libre (cooperación, aprendizaje, civismo) 3 4 .
-• Universidad de Cádiz – Oficina de Software Libre (OSLUCA). Objetivos y primeras iniciativas de una OSL
-universitaria (fomento del conocimiento libre, colaboración, formatos abiertos, etc.) 15 5 .
-• Universidad de Las Palmas de G.C. – Oficina de Software Libre (ULPGC). Misión de la OSL universitaria:
-fomentar y divulgar el uso de Software Libre y ofrecer soporte mediante cursos, documentación y
-otros medios 16 .
-• Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los
-derechos digitales (LOPD-GDD).
-• Ley 45/2015, de 14 de octubre, de Voluntariado. Requisitos para actividades con menores:
-autorización parental y certificado negativo de delitos sexuales para voluntarios 7 8 .
-• Plataforma Voluntariado de España – Derechos y deberes de las personas voluntarias. Obligación de no
-sustituir trabajo remunerado con voluntariado 9 .
-• Enclave Social – Los menores en la Ley de Voluntariado 45/2015. Artículo explicativo sobre la
-participación de menores como voluntarios y garantías adicionales 17 8 .
-(Se adjunta esta bibliografía para referencia de las fuentes citadas y consulta de la normativa mencionada. Todos
-los materiales utilizados son de acceso público y muchos de ellos cuentan con licencias abiertas.)
-1
-Digitalización en la educación - Steilas
-https://steilas.eus/es/2025/12/09/digitalizacion-en-la-educacion/
-2
-3
-4
-Software Libre en Educación, ¿Es necesario? | VIU España
-https://www.universidadviu.com/es/actualidad/nuestros-expertos/software-libre-en-educacion-es-necesario
-5
-6
-15
-16
-El software libre de la educación - Cursos Multimedia SL
-https://cursosmultimedia.es/tutoresformacion/el-software-libre-de-la-educacion/
-7
-10
-Derechos y deberes | Voluntariado.net
-https://voluntariado.net/derecho-y-deberes/
-8
-17
-Los menores en la ley 45/2015, de 14 de octubre, de voluntariado - Enclave Social
-https://enclavesocial.org/los-menores-en-la-ley-452015-de-14-de-octubre-de-voluntariado/
-169
-plataformavoluntariado.org
-https://plataformavoluntariado.org/wp-content/uploads/2018/09/voluntariado-con-menores.-requisitos-legales-para-las-
-personas-voluntarias.pdf
-11
-Oficina de Software Libre de la Universidad de La Laguna (OSL-ULL)
-https://www.facebook.com/OSLULL/
-12
-OSL-ULL (@OSLULL) / Posts / X - Twitter
-https://x.com/OSLULL
-13
-14
-insurgenciamagisterial.com
-https://insurgenciamagisterial.com/3-3-el-software-libre-en-educacion?action=genpdf&id=69425
+
+La puesta en marcha de la OSL conlleva también consideraciones importantes en materia de seguridad informática y de gobernanza del proyecto. A continuación se presentan recomendaciones clave para garantizar que la OSL opere de forma segura, organizada y sostenible en el tiempo.
+
+## 6.1 Seguridad técnica y buenas prácticas TIC:
+
+* **Instalaciones seguras y estables**: Cuando se instalen sistemas operativos libres (por ejemplo, Linux) en equipos del centro, se recomienda hacerlo sin reemplazar del todo los sistemas existentes al inicio (configuración dual boot o en máquinas dedicadas de prueba) para no interrumpir la operativa habitual. Cada instalación debe realizarse con versiones estables y LTS (soporte a largo plazo) para minimizar errores. Asimismo, mantener siempre actualizado el software es esencial: se establecerá una rutina para aplicar actualizaciones de seguridad del sistema operativo y aplicaciones libres utilizadas, protegiendo así contra vulnerabilidades.
+* **Gestión de usuarios y contraseñas**: Si la OSL habilita cuentas de usuario en nuevos sistemas (por ejemplo, acceso a un servidor local, o cuentas de editores en la web de la OSL), se implementará una política de contraseñas seguras (mínimo 8 caracteres, mezcla de tipos, cambios periódicos si aplica) y se educará a los alumnos en no compartir credenciales. El coordinador mantendrá un registro seguro de las cuentas administradoras (admin/root) de cualquier sistema instalado, de forma que no se pierda el acceso en caso de incidencia. Idealmente, dichas credenciales maestras se depositarán de forma confidencial en la dirección del centro o en conocimiento de al menos dos personas (por ejemplo, coordinador OSL y coordinador TIC del centro) para garantizar disponibilidad y continuidad.
+* **Backups y protección de datos**: Todo sistema o archivo crítico se respaldará regularmente. Por ejemplo, si se monta un servidor web local con contenidos, se programarán copias de seguridad semanales a un disco externo o a un almacenamiento en la nube del centro. Igualmente, los documentos y recursos generados por la OSL (manuales, códigos fuente, etc.) se conservarán en repositorios redundantes: quizá usando un servicio git libre (como GitLab CE en servidor del centro o GitHub/GitLab online si se permite) para tener historial de cambios y copias remotas. En caso de desastre (pérdida de datos, fallo de un equipo), esta estrategia de backups permitirá restaurar rápidamente el servicio sin pérdidas significativas.
+* **Seguridad de la red y equipos**: Cualquier equipo usado por la OSL debe cumplir con las directrices de seguridad del centro: antivirus (en Windows, si se mantienen dual boots), filtrado de contenidos adecuado para menores, etc. Al introducir nuevos software, se revisarán sus configuraciones para alinearlas con la política de seguridad. Por ejemplo, deshabilitar servicios innecesarios en un servidor Linux para reducir superficie de ataque, o forzar conexiones cifradas (HTTPS, SSH) en las comunicaciones. Se formará al alumnado participante en prácticas de ciberseguridad básicas: no ejecutar binarios desconocidos, cuidado con dispositivos USB externos, etc., creando así un entorno seguro en la experimentación con software libre.
+* **Aislamiento de pruebas**: Si los alumnos van a experimentar con programación, sistemas o administración (lo cual es deseable en su aprendizaje), se procurará hacerlo en entornos controlados. Por ejemplo, usar máquinas virtuales o contenedores para pruebas peligrosas, de modo que no comprometan el sistema principal. Esto facilita la aprendizaje seguro, permitiendo “trastear” con configuraciones sin miedo a dañar equipos de producción. La OSL puede mantener un par de PC de laboratorio dedicados a prácticas avanzadas, revirtiendo su estado periódicamente(mediante imágenes de sistema) para que siempre estén listos y limpios para el siguiente uso.
+* **Cumplimiento de normativas de seguridad**: Además de las propias medidas, la OSL se asegurará de cumplir con el Esquema Nacional de Seguridad (ENS) en lo que sea aplicable a un centro educativo, y con cualquier instrucción que la Consejería indique sobre protección de sistemas. Aunque el ENS aplica sobre todo a sistemas de la Administración, es buena guía para calibrar las medidas implementadas (ej. control de accesos, copias de respaldo, plan de recuperación ante incidentes a pequeña escala, etc.).
+
+En resumen, la OSL aplicará el principio de seguridad por diseño: incorporar desde el inicio medidas proporcionales al nivel de los sistemas que maneja, creando un ambiente fiable tanto para los usuarios como para la infraestructura del centro. Así se evitarán incidentes que pudieran afectar la confianza en el proyecto (por ejemplo, fallos técnicos graves, pérdidas de información o brechas de seguridad).
+
+## 6.2 Gobernanza y organización mínima:
+
+* **Estructura organizativa clara**: Al inicio, la OSL estará liderada por un profesor coordinador designado. Es recomendable, no obstante, definir un pequeño comité o equipo OSL para repartir responsabilidades y asegurar continuidad. Por ejemplo, invitar a uno o dos docentes más interesados a formar parte (aunque sea de forma honorífica al principio) y a 2-3 alumnos veteranos como representantes estudiantiles. Este comité puede reunirse periódicamente (trimestralmente, por ejemplo) para planificar actividades y evaluar avances. Contar con estudiantes en la organización además les otorga sentido de pertenencia y les forma en liderazgo.
+* **Reglamento interno o normas de funcionamiento**: Sin necesidad de excesiva burocracia, es útil redactar un documento de funcionamiento de la OSL que cubra: objetivos, actividades que realiza, miembros (coordinador, colaboradores, alumnos), derechos y deberes de los participantes, canales de comunicación y toma de decisiones. Puede ser un reglamento breve aprobado por la dirección. Este documento servirá de referencia para resolver situaciones (por ejemplo, qué hacer si un alumno voluntario falta a sesiones, o cómo se integran nuevos docentes al equipo). También puede incluir un código de conducta básico (p. ej. uso responsable de recursos, respeto entre miembros, etc.), alineado con las normas de convivencia del centro.
+* **Comunicación y visibilidad**: Establecer desde el inicio mecanismos de comunicación fluida.Internamente, quizá un grupo privado (en Telegram, WhatsApp o el medio que la comunidad use) para coordinar al equipo OSL día a día. De cara al resto del centro, aprovechar las juntas de coordinación o claustros para informar periódicamente de las novedades de la OSL, buscando mantener el apoyo institucional y animar a más gente a unirse. Externamente, la OSL podría difundir sus logros en redes sociales educativas o en la web del instituto, lo que ayuda a la motivación de los participantes al ver reconocida su labor.
+* **Documentación y memoria**: La buena gobernanza implica registrar lo realizado. El coordinador llevará una memoria anual de actividades de la OSL (que al integrarse en la PGA, formaría parte de la memoria final de curso del centro). También se anotarán las decisiones importantes tomadas por el equipo en actas o notas compartidas. Esta documentación no solo es útil para transparencia, sino que será valiosa si hay rotación de personal: un nuevo coordinador en el futuro podrá revisar el historial y entender la evolución del proyecto.
+* **Sostenibilidad y relevo**: Desde el comienzo se debe pensar en la sostenibilidad del proyecto más allá de las personas individuales. Si bien arranca con un profesor, conviene involucrar a más docentes (por ejemplo, profesor/a del departamento de Informática, o algún entusiasta de Tecnología o Ciencias) para que actúen como sombra o co-coordinadores. Así, si el líder original se ausenta o cambia de destino, la OSL no se diluye. Igualmente, identificar alumnos de cursos inferiores para que, a medida que los mayores se gradúen, haya una cantera que continúe participando. Esta rotación planificada de miembros garantiza la permanencia del proyecto a largo plazo.
+* **Apoyo de la dirección y coordinación con estructuras del centro**: La gobernanza de la OSL debe anclarse en la estructura del instituto. Es recomendable que el equipo directivo designe un directivo de referencia (por ejemplo, el Vicedirector o Jefe de Estudios adjunto) para hacer seguimiento del proyecto y apoyarlo en la toma de decisiones administrativas. Asimismo, se mantendrá informada a la Comisión TIC del centro (si existe) o al coordinador TIC de cualquier cambio relevante. La OSL debe verse como parte del ecosistema escolar, no un ente aislado; por eso su gestión se vincula con las instancias ya establecidas en el organigrama.
+
+En síntesis, estas medidas de gobernanza asegurarán que la OSL funcione de forma ordenada, participativa y resiliente. Un liderazgo distribuido, reglas claras y buena comunicación interna son ingredientes para el éxito a largo plazo del proyecto. La mini OSL operará así con profesionalidad y espíritu colaborativo, dando ejemplo de la misma filosofía abierta que promueve.
+
+# 7. Perspectivas de futuro: ampliación, recursos y colaboraciones
+
+Aunque la propuesta se centra en el establecimiento inicial de la mini OSL, es pertinente esbozar una visión a futuro de cómo podría crecer y generar un mayor impacto, tanto dentro como fuera del centro. A continuación se describen algunas líneas de evolución posibles:
+
+* **Ampliación a otros docentes y departamentos**: En un escenario optimista, la OSL puede pasar de estar liderada por un solo profesor a convertirse en un proyecto colectivo de centro. Docentes de diversos departamentos podrían implicarse aportando su perspectiva: por ejemplo, un profesor de Ciencias Sociales interesado en software libre para cartografía digital, o un docente de Lengua usando editores libres para periódico escolar. Con más docentes, se podría incluso rotar la coordinación anualmente o tener co-coordinadores de áreas distintas (tecnología/educación), enriqueciendo la iniciativa. La formalización en PGA ayudaría a reconocer estas colaboraciones en sus horarios (posiblemente como innovación educativa).
+* **Participación más activa del alumnado**: A medida que los estudiantes adquieran experiencia, se puede dar mayor protagonismo al alumnado en la OSL. Por ejemplo, instaurar una figura de “Alumno Mentor” en software libre: estudiantes avanzados (quizá de 1º Bachillerato o últimos cursos de ESO) que, tutorizados por el profesor, lideren talleres para compañeros más jóvenes. Esto no solo libera carga al docente sino que desarrolla competencias de liderazgo en los alumnos mentores. También se pueden crear pequeños grupos de trabajo estudiantiles dentro de la OSL, enfocados 14en proyectos concretos (un grupo desarrollando la página web del centro con herramientas libres, otro creando material audiovisual libre para eventos escolares, etc.). Esta estructura tipo “club” estudiantil dará vitalidad y asegurará la continuidad generacional del proyecto.
+* **Publicación de recursos y repercusión exterior**: Con el tiempo, la OSL del IES Puerto de la Cruz puede aspirar a ser un referente más allá del propio instituto. Se podrían publicar en abierto todos los materiales elaborados (guías, presentaciones, códigos fuente) en plataformas de mayor alcance: por ejemplo, compartiendo recursos en la comunidad educativa canaria (a través de Medusa o de eventos como Jornadas TIC) o incluso a nivel nacional mediante repositorios educativos abiertos del INTEF/CeDeC. Asimismo, los logros del proyecto podrían presentarse en congresos o encuentros de docentes (por ejemplo, en un Simposio de Innovación Educativa de Canarias), difundiendo las buenas prácticas y animando a otros centros a replicar la iniciativa. Esta proyección externa puede atraer también reconocimientos o apoyos institucionales.
+* **Colaboración con otras OSL e instituciones**: Un futuro deseable es tejer alianzas con otras Oficinas de Software Libre. En el ámbito universitario, Canarias cuenta con la OSL de la ULL y de la ULPGC, que podrían brindar apoyo técnico y formativo. Se podría firmar convenios de colaboración donde estudiantes universitarios realicen prácticas o proyectos de fin de grado apoyando a la OSL del instituto, o donde el instituto participe en actividades organizadas por la universidad (por ejemplo, en la Tenerife Lan Party, evento tecnológico donde la OSL-ULL ha estado presente [11] [12]). También a nivel de secundaria, si este proyecto tiene éxito, podría impulsarse una red de OSL escolares en Tenerife o Canarias, compartiendo experiencias entre institutos. La OSL del IES Puerto de la Cruz, por su carácter pionero, podría liderar esa red en el futuro, actuando como nodo central de intercambio de conocimiento libre entre centros de la isla.
+* **Extensión a la comunidad local**: Más allá del entorno educativo, la OSL podría estrechar lazos con la comunidad local y las familias. Por ejemplo, organizando jornadas abiertas de migración a software libre para padres/madres de alumnos o para ciudadanos interesados (convertir el instituto en un pequeño centro de referencia de alfabetización digital libre en el municipio). Esto encajaría con la filosofía de apertura a la sociedad y servicio público. Incluso se podría colaborar con el ayuntamiento u otras entidades en proyectos puntuales (ej. talleres de ofimática libre en bibliotecas, reciclaje de equipos informáticos para donarlos con Linux a familias necesitadas, etc.), siempre evaluando los recursos disponibles.
+* **Búsqueda de apoyo y financiación adicional**: De cara a sostener y ampliar actividades, se podrán explorar vías de financiación o apoyo externo. Por ejemplo, presentarse a convocatorias de subvenciones para proyectos de innovación educativa o de transformación digital (del Gobierno de Canarias, Ministerio de Educación o incluso fondos europeos tipo Erasmus+ que impulsen competencias digitales). También contactar con empresas locales de tecnología para posibles patrocinios modestos (donación de material, cesión de espacio para eventos). Otra idea es colaborar con la AMPA del centro, de modo que esta asociación de padres pueda respaldar logísticamente algunas iniciativas (difusión entre familias, co-organización de eventos, etc.). Cualquier entrada de recursos se gestionará siempre con transparencia y acorde a las normativas (por ejemplo, las donaciones en especie se aceptarían mediante los cauces oficiales de Consejo Escolar si fuera necesario).
+
+En conclusión, las perspectivas de futuro de la mini OSL son prometedoras: además de consolidarse dentro del IES Puerto de la Cruz mejorando la competencia digital y la autonomía tecnológica de su comunidad, puede convertirse en un proyecto ejemplar que trascienda sus muros, irradiando la cultura del software libre a otros entornos educativos y sociales. La clave estará en mantener el entusiasmo inicial, evaluar periódicamente el impacto y adaptarse a nuevos retos y oportunidades. Con apoyo institucional y la involucración creciente de más personas, esta Oficina de Software Libre escolar puede perdurar y evolucionar, contribuyendo a largo plazo a una educación más libre, colaborativa y soberana tecnológicamente.
+
+# Bibliografía y fuentes consultadas:
+
+* Gobierno de Canarias – El software libre en educación. Razones pedagógicas para su uso en las
+escuelas según Richard Stallman [13] [14].
+* STEILAS (sindicato educativo) – Digitalización en la educación. Importancia de la soberanía tecnológica y crítica al tecnofeudalismo en las aulas [1].
+* VIU Universidad – Software Libre en Educación, ¿Es necesario? Artículo divulgativo sobre ventajas del software libre (cooperación, aprendizaje, civismo) [3] [4].
+* Universidad de Cádiz – Oficina de Software Libre (OSLUCA). Objetivos y primeras iniciativas de una OSL universitaria (fomento del conocimiento libre, colaboración, formatos abiertos, etc.) [15] [5].
+* Universidad de Las Palmas de G.C. – Oficina de Software Libre (ULPGC). Misión de la OSL universitaria: fomentar y divulgar el uso de Software Libre y ofrecer soporte mediante cursos, documentación y otros medios [16].
+* Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD).
+* Ley 45/2015, de 14 de octubre, de Voluntariado. Requisitos para actividades con menores: autorización parental y certificado negativo de delitos sexuales para voluntarios [7] [8].
+* Plataforma Voluntariado de España – Derechos y deberes de las personas voluntarias. Obligación de no sustituir trabajo remunerado con voluntariado [9].
+* Enclave Social – Los menores en la Ley de Voluntariado 45/2015. Artículo explicativo sobre la
+participación de menores como voluntarios y garantías adicionales [17] [8].
+
+_(Se adjunta esta bibliografía para referencia de las fuentes citadas y consulta de la normativa mencionada. Todos los materiales utilizados son de acceso público y muchos de ellos cuentan con licencias abiertas.)_
+
+---
+
+[1] **Digitalización en la educación - Steilas**
+- https://steilas.eus/es/2025/12/09/digitalizacion-en-la-educacion/
+
+[2] [3] [4] **Software Libre en Educación, ¿Es necesario? | VIU España**
+- https://www.universidadviu.com/es/actualidad/nuestros-expertos/software-libre-en-educacion-es-necesario
+
+[5] [6] [15] [16] **El software libre de la educación - Cursos Multimedia SL**
+- https://cursosmultimedia.es/tutoresformacion/el-software-libre-de-la-educacion/
+
+[7] [10] **Derechos y deberes | Voluntariado.net**
+- https://voluntariado.net/derecho-y-deberes/
+
+[8] [17] **Los menores en la ley 45/2015, de 14 de octubre, de voluntariado - Enclave Social**
+- https://enclavesocial.org/los-menores-en-la-ley-452015-de-14-de-octubre-de-voluntariado/
+
+[9] **plataformavoluntariado.org**
+-https://plataformavoluntariado.org/wp-content/uploads/2018/09/voluntariado-con-menores.-requisitos-legales-para-las-personas-voluntarias.pdf
+
+[11] **Oficina de Software Libre de la Universidad de La Laguna (OSL-ULL)**
+- https://www.facebook.com/OSLULL/
+
+[12] **OSL-ULL (@OSLULL) / Posts / X - Twitter**
+- https://x.com/OSLULL
+
+[13] [14] **insurgenciamagisterial.com**
+- https://insurgenciamagisterial.com/3-3-el-software-libre-en-educacion?action=genpdf&id=69425
