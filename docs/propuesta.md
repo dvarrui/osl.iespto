@@ -2,6 +2,11 @@
 
 # Propuesta para la creación e implantación de una mini Oficina de Software Libre en el IES Puerto de la Cruz (Tenerife)
 
+Índice
+1. [Justificación](#1-justificación-pedagógica-y-estratégica-del-proyecto)
+2. [Objetivos](#2-objetivos-operativos-de-la-mini-osl)
+3. [Modalidad de integración](#3-modalidad-de-integración-en-el-centro-educativo)
+
 # 1. Justificación pedagógica y estratégica del proyecto
 
 **Soberanía tecnológica y autonomía educativa**: La introducción de una **Oficina de Software Libre (OSL)** en el centro persigue reforzar la **soberanía tecnológica** de la comunidad educativa, reduciendo la dependencia de proveedores corporativos externos. En la actualidad, la digitalización educativa suele apoyarse en plataformas privativas de grandes multinacionales, lo que conlleva riesgos en cuanto a privacidad, control de datos y pérdida de autonomía pedagógica [1]. Implementar software libre (aquél que garantiza al usuario libertades de uso, copia, modificación y distribución) permite al centro **retomar el control sobre sus herramientas digitales**, adaptándolas a sus necesidades sin ataduras contractuales. Diversos expertos y colectivos educativos subrayan que promover infraestructuras tecnológicas públicas basadas en software libre es imprescindible para evitar la mercantilización de la educación y asegurar la **independencia tecnológica** de las escuelas [1] . En síntesis, una OSL alinearía al IES Puerto de la Cruz con objetivos estratégicos de soberanía tecnológica, favoreciendo un entorno digital bajo control del propio centro y acorde a valores del sector público.
@@ -41,40 +46,17 @@ Un aspecto clave de la propuesta es determinar cómo se integrará la OSL en la 
 * **Actividad complementaria**: Consistiría en plantear las actividades de la OSL dentro del horario
 lectivo, complementando el currículo. Por ejemplo, talleres de software libre incluidos en sesiones de tutoría, o un proyecto de centro que se desarrolla en horas de clase con uno o varios grupos. Esta modalidad permitiría llegar a todo el alumnado de forma integrada, pero presenta retos organizativos: requeriría aprobación en CCP (Comisión de Coordinación Pedagógica) y Claustro, ajustar horarios, y posiblemente contar con la participación de varios departamentos para encaje curricular. Dado que inicialmente la OSL estará liderada por un único profesor y el proyecto está en fase piloto, la modalidad complementaria podría ser difícil de implementar de inmediato por la rigidez de horarios y programas oficiales.
 * **Actividad extraescolar**: En este formato, la OSL operaría como un taller o club voluntario fuera del horario lectivo (ej. una tarde a la semana). Esto brinda mayor flexibilidad, pues la participación del alumnado sería voluntaria y no tendría que ajustarse al currículo formal. Se podría iniciar la OSL como extraescolar para probar su funcionamiento a pequeña escala: por ejemplo, un club de software libre abierto a alumnos interesados de distintos niveles, con sesiones prácticas después de clase. La ventaja es la facilidad de puesta en marcha (basta la aprobación de la dirección y recabar autorizaciones parentales para los menores participantes), así como la posibilidad de incorporar a colaboradores externos en ese horario sin interferir en las clases. Como contrapartida, al ser voluntaria, el alcance inicial estaría limitado a aquellos estudiantes y docentes especialmente motivados, pudiendo dejar fuera a otros que quizá por desconocimiento no se sumen. También implica que el profesor coordinador dedique tiempo extra fuera de su jornada laboral (habría que definir si se considera dentro de sus horas de dedicación, o si se realiza de forma voluntaria no remunerada, según las posibilidades del centro o ayudas de la AMPA).
-* **Proyecto permanente en la PGA**: Consiste en incluir formalmente la mini OSL como un proyecto
-institucional del centro, recogido en la Programación General Anual y, por ende, con
-reconocimiento oficial en la planificación del curso. Esta vía conferiría mayor estabilidad y visibilidad
-al proyecto. Podría conceptualizarse como un Proyecto de Innovación Educativa o de
-Transformación Digital, alineado con el Proyecto Educativo de Centro. Al integrarlo en la PGA, se
-facilita su continuidad año tras año (más allá de la voluntariedad de un docente individual) y se
-pueden prever recursos o apoyos desde el inicio. No obstante, para ser incluido en la PGA, el
-proyecto debe estar bien definido, con objetivos, planificación y evaluación, y generalmente
-aprobarse en Claustro y Consejo Escolar. Dado que la Consejería de Educación de Canarias podría
-requerir autorización para proyectos que impliquen agentes externos o cambios significativos, la
-modalidad PGA supone preparar documentación formal (como la presente propuesta) para solicitar
-dicha aprobación si es pertinente. También implicaría designar un coordinador responsable en los
-documentos oficiales y articular la OSL con otros planes (por ejemplo, con el Plan Digital de Centro o
-el Plan de Acción Tutorial si encaja en alguno de sus objetivos).
-Propuesta de integración: Tras valorar las opciones, se sugiere un enfoque gradual y combinado. En la
-fase de arranque (curso 2023-2024, por ejemplo), podría implementarse la OSL como actividad
-extraescolar piloto, dada su flexibilidad inicial. Esto permitiría poner en marcha las primeras acciones
-(talleres, asesoramientos) de forma ágil, midiendo la respuesta de la comunidad. Paralelamente, se puede
-trabajar en la formalización progresiva: documentar las actividades y resultados del piloto para, de cara al
-4siguiente curso, incluir la OSL en la PGA como proyecto permanente del centro. De esta manera, la OSL
-nacería con carácter experimental extraescolar (fácil de iniciar) pero con vocación de consolidarse
+* **Proyecto permanente en la PGA**: Consiste en incluir formalmente la mini OSL como un proyecto institucional del centro, recogido en la Programación General Anual y, por ende, con reconocimiento oficial en la planificación del curso. Esta vía conferiría mayor estabilidad y visibilidad al proyecto. Podría conceptualizarse como un Proyecto de Innovación Educativa o de Transformación Digital, alineado con el Proyecto Educativo de Centro. Al integrarlo en la PGA, se facilita su continuidad año tras año (más allá de la voluntariedad de un docente individual) y se pueden prever recursos o apoyos desde el inicio. No obstante, para ser incluido en la PGA, el proyecto debe estar bien definido, con objetivos, planificación y evaluación, y generalmente aprobarse en Claustro y Consejo Escolar. Dado que la Consejería de Educación de Canarias podría requerir autorización para proyectos que impliquen agentes externos o cambios significativos, la modalidad PGA supone preparar documentación formal (como la presente propuesta) para solicitar dicha aprobación si es pertinente. También implicaría designar un coordinador responsable en los documentos oficiales y articular la OSL con otros planes (por ejemplo, con el Plan Digital de Centro o el Plan de Acción Tutorial si encaja en alguno de sus objetivos).
+
+**Propuesta de integración**: Tras valorar las opciones, se sugiere un enfoque gradual y combinado. En la fase de arranque (curso 2025-2026, por ejemplo), podría implementarse la OSL como actividad extraescolar piloto, dada su flexibilidad inicial. Esto permitiría poner en marcha las primeras acciones (talleres, asesoramientos) de forma ágil, midiendo la respuesta de la comunidad. Paralelamente, se puede trabajar en la formalización progresiva: documentar las actividades y resultados del piloto para, de cara al siguiente curso, incluir la OSL en la PGA como proyecto permanente del centro. De esta manera, la OSL nacería con carácter experimental extraescolar (fácil de iniciar) pero con vocación de consolidarse
 institucionalmente.
-En el momento de integrarla en la PGA, se definirá claramente en qué línea se encuadra: puede ser parte
-del Plan de Innovación o del Plan Digital del centro, o figurar como un proyecto específico de Tecnologías
-de la Información y la Comunicación (TIC). Cabe destacar que esta iniciativa complementa las políticas
-educativas actuales que incentivan la digitalización y la innovación didáctica, por lo que su encaje en la PGA
-contribuirá a los objetivos estratégicos del instituto.
-Por último, independientemente de la modalidad escogida, es fundamental respetar las normas de
-organización interna del centro (NOF/ROF) en cuanto a actividades fuera del aula o proyectos. La
-dirección del IES Puerto de la Cruz deberá supervisar el desarrollo de la OSL, asegurando su coherencia con
-el Proyecto Educativo y coordinando con el departamento de TIC o Coordinación Pedagógica según
-proceda. Este respaldo formal garantizará que la OSL tenga la legitimidad y apoyo necesarios desde la
-dirección.
-4. Requisitos normativos y legales a considerar
+
+En el momento de integrarla en la PGA, se definirá claramente en qué línea se encuadra: puede ser parte del Plan de Innovación o del Plan Digital del centro, o figurar como un proyecto específico de Tecnologías de la Información y la Comunicación (TIC). Cabe destacar que esta iniciativa complementa las políticas educativas actuales que incentivan la digitalización y la innovación didáctica, por lo que su encaje en la PGA contribuirá a los objetivos estratégicos del instituto. 
+
+Por último, independientemente de la modalidad escogida, es fundamental respetar las normas de organización interna del centro (NOF/ROF) en cuanto a actividades fuera del aula o proyectos. La dirección del IES Puerto de la Cruz deberá supervisar el desarrollo de la OSL, asegurando su coherencia con el Proyecto Educativo y coordinando con el departamento de TIC o Coordinación Pedagógica según proceda. Este respaldo formal garantizará que la OSL tenga la legitimidad y apoyo necesarios desde la dirección.
+
+## 4. Requisitos normativos y legales a considerar
+
 La implantación de la mini OSL debe cumplir escrupulosamente con la normativa vigente en materia
 educativa, de protección de datos, de actividades con menores y de voluntariado, tanto a nivel autonómico
 (Canarias) como estatal. A continuación se desglosan los principales requisitos legales y regulatorios que
