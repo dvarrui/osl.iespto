@@ -1,6 +1,10 @@
 [<< back](../README.md)
 
-# Propuesta para la creación e implantación de una mini Oficina de Software Libre en el IES Puerto de la Cruz (Tenerife)
+```
+Propuesta para la creación e implantación 
+de una mini Oficina de Software Libre
+en el IES Puerto de la Cruz (Tenerife)
+```
 
 Índice
 1. [Justificación](#1-justificación-pedagógica-y-estratégica-del-proyecto)
@@ -15,6 +19,12 @@
     * 5.1 [Preparación](#51-fase-de-preparación-mes-0-1)
     * 5.2 [Piloto](#52-fase-de-piloto-inicial-mes-2-5)
     * 5.3 [Consolidación](#53-fase-de-consolidación-mes-6-10)
+    * 5.4 [Piloto](#52-fase-de-piloto-inicial-mes-2-5)
+6. [Seguridad](#6-recomendaciones-de-seguridad-técnica-y-gobernanza)
+    * 6.1 [Seguridad](#61-seguridad-técnica-y-buenas-prácticas-tic)
+    * 6.2 [Governanza](#62-gobernanza-y-organización-mínima)
+7. [Futuro](#7-perspectivas-de-futuro-ampliación-recursos-y-colaboraciones)
+8. [Bibliografía](#8-bibliografía-y-fuentes-consultadas)
 
 ---
 # 1. Justificación pedagógica y estratégica del proyecto
@@ -189,7 +199,7 @@ Aunque la propuesta se centra en el establecimiento inicial de la mini OSL, es p
 
 En conclusión, las perspectivas de futuro de la mini OSL son prometedoras: además de consolidarse dentro del IES Puerto de la Cruz mejorando la competencia digital y la autonomía tecnológica de su comunidad, puede convertirse en un proyecto ejemplar que trascienda sus muros, irradiando la cultura del software libre a otros entornos educativos y sociales. La clave estará en mantener el entusiasmo inicial, evaluar periódicamente el impacto y adaptarse a nuevos retos y oportunidades. Con apoyo institucional y la involucración creciente de más personas, esta Oficina de Software Libre escolar puede perdurar y evolucionar, contribuyendo a largo plazo a una educación más libre, colaborativa y soberana tecnológicamente.
 
-# Bibliografía y fuentes consultadas:
+# 8. Bibliografía y fuentes consultadas
 
 * Gobierno de Canarias – El software libre en educación. Razones pedagógicas para su uso en las
 escuelas según Richard Stallman [13] [14].
