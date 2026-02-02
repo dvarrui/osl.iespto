@@ -6,7 +6,17 @@
 1. [Justificación](#1-justificación-pedagógica-y-estratégica-del-proyecto)
 2. [Objetivos](#2-objetivos-operativos-de-la-mini-osl)
 3. [Modalidad de integración](#3-modalidad-de-integración-en-el-centro-educativo)
+4. [Requisitos normativos](#4-requisitos-normativos-y-legales-a-considerar)
+    * 4.1 [Datos personales](#41-protección-de-datos-personales)
+    * 4.2 [Proteccion de menores](#42-protección-de-menores-y-contacto-con-agentes-externos)
+    * 4.3 [Licencias](#43-uso-de-software-y-licencias-en-el-centro)
+    * 4.4 [Voluntariado](#44-régimen-de-voluntariado-y-colaboraciones-externas)
+5. [Plan de arranque](#5-plan-de-arranque-de-la-iniciativa)
+    * 5.1 [Preparación](#51-fase-de-preparación-mes-0-1)
+    * 5.2 [Piloto](#52-fase-de-piloto-inicial-mes-2-5)
+    * 5.3 [Consolidación](#53-fase-de-consolidación-mes-6-10)
 
+---
 # 1. Justificación pedagógica y estratégica del proyecto
 
 **Soberanía tecnológica y autonomía educativa**: La introducción de una **Oficina de Software Libre (OSL)** en el centro persigue reforzar la **soberanía tecnológica** de la comunidad educativa, reduciendo la dependencia de proveedores corporativos externos. En la actualidad, la digitalización educativa suele apoyarse en plataformas privativas de grandes multinacionales, lo que conlleva riesgos en cuanto a privacidad, control de datos y pérdida de autonomía pedagógica [1]. Implementar software libre (aquél que garantiza al usuario libertades de uso, copia, modificación y distribución) permite al centro **retomar el control sobre sus herramientas digitales**, adaptándolas a sus necesidades sin ataduras contractuales. Diversos expertos y colectivos educativos subrayan que promover infraestructuras tecnológicas públicas basadas en software libre es imprescindible para evitar la mercantilización de la educación y asegurar la **independencia tecnológica** de las escuelas [1] . En síntesis, una OSL alinearía al IES Puerto de la Cruz con objetivos estratégicos de soberanía tecnológica, favoreciendo un entorno digital bajo control del propio centro y acorde a valores del sector público.
@@ -25,7 +35,7 @@ práctica, pues aprenden con el ejemplo que el modelo colaborativo y solidario b
 
 En resumen, la creación de una mini Oficina de Software Libre en el IES Puerto de la Cruz se justifica por su aportación pedagógica, estratégica y axiológica. El proyecto fomenta la soberanía tecnológica institucional, refuerza la competencia digital crítica de la comunidad educativa y promueve una cultura de colaboración y conocimiento libre. Además, encaja con objetivos globales de modernización educativa y de uso eficiente de los recursos, situando al centro a la vanguardia en el fomento del software libre en la enseñanza secundaria.
 
-## 2. Objetivos operativos de la mini OSL
+# 2. Objetivos operativos de la mini OSL
 
 La Oficina de Software Libre del IES Puerto de la Cruz tendrá una misión claramente definida y una serie de **objetivos operativos concretos** orientados a promover, apoyar y formar en materia de software libre dentro de la comunidad educativa. A continuación se enumeran los objetivos principales:
 
@@ -39,7 +49,7 @@ La Oficina de Software Libre del IES Puerto de la Cruz tendrá una misión clara
 
 Todos estos objetivos operativos se irán implementando progresivamente, acorde con los recursos y la participación disponible. En conjunto, definen un proyecto operativo integral: la mini OSL será a la vez un motor de cambio tecnológico (introduciendo nuevas herramientas libres), un centro de formación (capacitaciones en licencias y uso de software) y un nodo de apoyo (asistencia técnica y moral en la migración hacia entornos libres).
 
-## 3. Modalidad de integración en el centro educativo
+# 3. Modalidad de integración en el centro educativo
 
 Un aspecto clave de la propuesta es determinar cómo se integrará la OSL en la vida orgánica del instituto, atendiendo a la normativa educativa vigente y a las figuras de proyectos existentes. Se barajan tres modalidades principales: actividad complementaria, actividad extraescolar o proyecto permanente 3incluido en la Programación General Anual (PGA) del centro. A continuación se analizan estas opciones y se propone la vía más adecuada:
 
@@ -55,277 +65,92 @@ En el momento de integrarla en la PGA, se definirá claramente en qué línea se
 
 Por último, independientemente de la modalidad escogida, es fundamental respetar las normas de organización interna del centro (NOF/ROF) en cuanto a actividades fuera del aula o proyectos. La dirección del IES Puerto de la Cruz deberá supervisar el desarrollo de la OSL, asegurando su coherencia con el Proyecto Educativo y coordinando con el departamento de TIC o Coordinación Pedagógica según proceda. Este respaldo formal garantizará que la OSL tenga la legitimidad y apoyo necesarios desde la dirección.
 
-## 4. Requisitos normativos y legales a considerar
+# 4. Requisitos normativos y legales a considerar
 
 La implantación de la mini OSL debe cumplir escrupulosamente con la normativa vigente en materia
-educativa, de protección de datos, de actividades con menores y de voluntariado, tanto a nivel autonómico
-(Canarias) como estatal. A continuación se desglosan los principales requisitos legales y regulatorios que
-el proyecto deberá atender:
-4.1 Protección de datos personales
-Dado que la OSL tratará potencialmente con datos personales de alumnos, profesores o colaboradores (por
-ejemplo, listados de participantes en talleres, correos de contacto, publicaciones con nombre/imagen de
-alumnos, etc.), resulta imperativo cumplir la legislación de protección de datos. Es aplicable el
-Reglamento General de Protección de Datos de la UE (RGPD, 2016/679) y la Ley Orgánica española 3/2018
-de Protección de Datos Personales y garantía de los derechos digitales. Estas normativas exigen, entre
-otros aspectos:
-• Legitimación y consentimiento: Solo se recogerán datos personales necesarios para las
-actividades de la OSL, y siempre con una base legal adecuada. En el caso de datos de estudiantes
-menores de 14 años (por ejemplo, si se publica su imagen o se les registra en algún servicio), se
-recabará el consentimiento expreso de padres o tutores, conforme al artículo 7 de la LO 3/2018. Para
-alumnos mayores de 14, se les informará debidamente y se solicitará consentimiento cuando la
-actividad lo requiera (la matrícula escolar ya legitima ciertos tratamientos internos, pero no cobija
-actividades extraprogramáticas como un club, por lo que es prudente recabar autorización adicional
-para participación en la OSL).
-• Deber de información: La OSL deberá informar a los interesados (alumnos, familias, docentes) del
-tratamiento de sus datos. Por ejemplo, si se elabora un fichero de inscritos a un taller, se les
-comunicará quién es el responsable (el propio IES/Consejería de Educación), con qué finalidad se
-usan los datos, bases legales, posibles cesiones (no se prevén cesiones a terceros externos sin
-5consentimiento) y los derechos ARCO+ (acceso, rectificación, supresión, etc.). Esta información puede
-integrarse en las autorizaciones por escrito que se entreguen a las familias al inicio de la actividad.
-• Seguridad y confidencialidad: Se asegurarán medidas técnicas y organizativas para proteger los
-datos personales. Esto implica almacenar de forma segura los listados o documentos que contengan
-datos privados (bajo custodia del profesor coordinador y, idealmente, en sistemas proporcionados
-por la Consejería –p. ej. plataformas Medusa o Drive institucional cifrado– en lugar de cuentas
-personales). Cualquier dispositivo o equipo que contenga datos deberá estar protegido con
-contraseña. Asimismo, solo el personal autorizado (profesor coordinador, equipo directivo si
-corresponde) accederá a información sensible. Si la OSL habilita algún servicio web (por ejemplo, un
-foro interno) requerirá autenticación adecuada y respetará la privacidad de sus usuarios.
-• Delegado de Protección de Datos (DPD/DPO): Los centros educativos públicos suelen contar con
-un Delegado de Protección de Datos designado por la Consejería. Se notificará a dicho delegado la
-puesta en marcha de este proyecto, especialmente si implica nuevos tratamientos de datos
-personales, para recibir orientación y asegurar que se incorporen al Registro de Actividades de
-Tratamiento del centro. El DPD podrá asesorar sobre evaluaciones de impacto si fueran necesarias,
-aunque en principio las actividades descritas (formativas y de divulgación) no conllevan tratamientos
-de alto riesgo.
-En resumen, la OSL actuará conforme al principio de minimización de datos (tratar solo datos
-imprescindibles), con transparencia hacia los afectados y aplicando las medidas de seguridad que marca
-la normativa. De este modo, se garantiza la protección de la privacidad de nuestros menores y comunidad
-escolar, evitando cualquier incumplimiento legal en este ámbito.
-4.2 Protección de menores y contacto con agentes externos
-Al tratarse de un proyecto que involucrará posiblemente a alumnos menores de edad y potencialmente a
-colaboradores externos (ej. voluntarios, ponentes de la comunidad de software libre), se deben extremar
-las precauciones legales relativas a la protección de menores:
-• Autorizaciones parentales: Para la participación de alumnado fuera del horario lectivo (actividades
-extraescolares de la OSL) será necesaria la autorización expresa de sus padres/madres o tutores
-legales. Esto se gestionará mediante formularios donde se detalle la naturaleza de la actividad,
-horarios, responsables y se obtenga el consentimiento firmado. En el caso de salidas puntuales
-fuera del centro (por ejemplo, visita a la universidad u otros eventos de software libre), también se
-recabarán los permisos pertinentes conforme al protocolo habitual de actividades extraescolares del
-IES.
-• Colaboradores y voluntarios externos: Si en el futuro se incorporan agentes externos (por
-ejemplo, miembros de una asociación de software libre que quieran colaborar impartiendo talleres),
-habrá que cumplir la legislación de voluntariado (Ley 45/2015, de 14 de octubre) y la normativa de
-protección de menores. En particular, toda persona ajena al centro que vaya a tener contacto
-habitual con menores deberá acreditar carecer de antecedentes penales por delitos sexuales o
-de trata de menores, aportando el certificado negativo del Registro Central de Delincuentes
-Sexuales antes de iniciar su colaboración 7 . Esta exigencia, introducida por la Ley 26/2015 de
-protección de la infancia, es de cumplimiento obligatorio y la dirección del centro debe velar por ello.
-6Además, los voluntarios adultos firmarán una declaración responsable de no tener antecedentes por
-otros delitos graves (violencia, terrorismo, etc.), según el artículo 8.5 de la Ley de Voluntariado 8 .
-• Supervisión y responsabilidad: Cualquier actividad de la OSL que implique a personas externas se
-realizará bajo la supervisión de personal docente del centro. Es decir, un profesor (el coordinador
-u otro designado) estará siempre presente en las sesiones donde haya alumnos, incluso si el
-contenido lo imparte un voluntario externo. De esta forma se garantiza el control educativo de la
-actividad y la seguridad de los menores. La entidad o personas voluntarias deberán estar
-formalmente autorizadas por la dirección del IES para colaborar, mediante un acuerdo escrito que
-delimite sus funciones, la duración de la actividad, y que deje claro que actúan de forma altruista sin
-relación laboral. Asimismo, se comprobará que dichas colaboraciones voluntarias no suponen
-sustitución de funciones propias de un docente o personal del centro, tal como recalca la Ley
-45/2015 (la acción voluntaria no puede servir para cubrir puestos de trabajo estructurales) 9 .
-• Normativa específica de Canarias: Se revisará si la Comunidad Autónoma de Canarias posee
-protocolos adicionales para actividades con menores o voluntariado en centros educativos. Por
-ejemplo, algunas CCAA cuentan con registros de entidades colaboradoras o exigen comunicar al
-Servicio de Inspección educativa cuando se ponen en marcha proyectos con voluntarios externos. De
-ser el caso, el IES Puerto de la Cruz cursará las comunicaciones u obtendrá las autorizaciones
-autonómicas necesarias antes de incorporar a terceros en la OSL. Adicionalmente, todas las
-actividades cumplirán el Plan de Prevención y Seguridad del centro: control de accesos (registro
-de entrada de visitantes), cumplimiento de medidas COVID u otras vigentes, ratio de adultos/
-alumnos adecuado, etc.
-En definitiva, la interacción de la OSL con menores estará enmarcada por un escrupuloso cumplimiento
-legal y de protección: autorización de tutores para cualquier actividad no ordinaria, supervisión constante
-por docentes, certificaciones y acuerdos formales para voluntarios, y respeto de protocolos de seguridad.
-La prioridad absoluta será garantizar el bienestar de los estudiantes participantes y la tranquilidad de sus
-familias en cuanto a que el proyecto se desarrolla en un entorno seguro y bajo control.
-4.3 Uso de software y licencias en el centro
-El hecho de introducir software libre en las instalaciones y actividades del instituto exige observar algunos
-aspectos normativos relacionados con el uso de software en entornos educativos:
-• Licencias de software: Por definición, el software libre que se promoverá respeta las licencias
-abiertas (GPL, BSD, MIT, etc.), lo cual garantiza la legalidad de su instalación y uso ilimitado en
-los equipos del centro. No obstante, se llevará un registro de qué software se instala en los
-ordenadores institucionales, asegurando que todas las aplicaciones cuentan con licencias
-compatibles con el entorno educativo (evitando, por ejemplo, contenido con restricciones de uso
-comercial si pudiera afectar). Se instruirá al personal y alumnos para que comprendan que, aunque
-sea libre, cada software tiene unos términos de licencia que deben respetarse (por ejemplo,
-mantener avisos de copyright, citar autores de material reutilizado, etc., tal como estipulan las
-licencias Creative Commons en recursos multimedia). La formación que impartirá la OSL en este
-ámbito ayudará a prevenir infracciones involuntarias de licencias.
-7• Políticas TIC del centro y la Consejería: Antes de instalar o modificar configuraciones de los
-equipos del instituto, la OSL coordinará sus acciones con el responsable TIC del centro y la normativa
-que aplique la Consejería de Educación en materia de tecnologías. Es posible que la Consejería
-disponga de un catálogo de software permitido o de imágenes estandarizadas para los
-ordenadores de aula Medusa. La OSL respetará esos marcos, solicitando autorización para instalar
-sistemas operativos alternativos en equipos de aula si fuera necesario (por ejemplo, establecer
-arranque dual Windows/Linux en laboratorios de informática, garantizando que no se altera nada
-sin permiso). En caso de que el proyecto implique utilizar servicios en la nube o plataformas online
-libres, se verificarán los términos de servicio de dichos proveedores para asegurarse de que son
-compatibles con su uso por menores y con la LOPD (idealmente, se preferirán soluciones auto-
-alojadas en servidores del centro o de la Consejería para mayor control).
-• Contenido abierto y propiedad intelectual: Uno de los objetivos es publicar recursos creados por
-alumnos o profesores bajo licencias libres. En ese proceso, se vigilará no vulnerar derechos de autor
-de terceros. La OSL asesorará en el uso legal de contenidos: por ejemplo, si en un tutorial se
-incluye una imagen, se verificará que sea de dominio público o Creative Commons; si se comparte
-código, que no infrinja licencias de software privativo. Además, al publicar trabajos de alumnos, se
-obtendrá consentimiento de sus tutores (como explicado) y se optará por licencias abiertas que ellos
-comprendan. Es importante aclarar que difundir materiales con licencias libres no implica renuncia
-a la autoría, sino facilitar su reutilización; este matiz será parte de la formación legal impartida.
-• Normativa de seguridad informática: Cualquier software o sistema que se instale deberá cumplir
-con las normas de seguridad y filtro de contenidos del centro. Si se montara un servidor local (por
-ejemplo, para pruebas de un servicio web libre), se endurecerán las medidas de seguridad (firewall,
-acceso solo desde la red interna o VPN, etc.) y se notificará a la unidad de Tecnologías del centro
-para supervisión. Se cumplirá la normativa de protección de datos en sistemas: por ejemplo, si se
-crea una instancia de Nextcloud o wiki para uso interno, se configurará con autenticación individual
-y solo con los datos indispensables de los usuarios.
-En síntesis, el uso de software en este proyecto se hará dentro del marco legal y normativo vigente:
-instalando únicamente software legítimo (priorizando el libre), coordinando con las políticas TIC oficiales,
-respetando la propiedad intelectual de todos los contenidos manejados, y asegurando la conformidad con
-la normativa de seguridad de los sistemas educativos. De este modo, la transición hacia el software libre
-será ejemplar también en términos de cumplimiento normativo.
-4.4 Régimen de voluntariado y colaboraciones externas
+educativa, de protección de datos, de actividades con menores y de voluntariado, tanto a nivel autonómico (Canarias) como estatal. A continuación se desglosan los principales requisitos legales y regulatorios que el proyecto deberá atender:
+
+## 4.1 Protección de datos personales
+
+Dado que la OSL tratará potencialmente con datos personales de alumnos, profesores o colaboradores (por ejemplo, listados de participantes en talleres, correos de contacto, publicaciones con nombre/imagen de alumnos, etc.), resulta imperativo cumplir la legislación de protección de datos. Es aplicable el Reglamento General de Protección de Datos de la UE (RGPD, 2016/679) y la Ley Orgánica española 3/2018 de Protección de Datos Personales y garantía de los derechos digitales. Estas normativas exigen, entre otros aspectos:
+
+* **Legitimación y consentimiento**: Solo se recogerán datos personales necesarios para las actividades de la OSL, y siempre con una base legal adecuada. En el caso de datos de estudiantes menores de 14 años (por ejemplo, si se publica su imagen o se les registra en algún servicio), se recabará el consentimiento expreso de padres o tutores, conforme al artículo 7 de la LO 3/2018. Para alumnos mayores de 14, se les informará debidamente y se solicitará consentimiento cuando la actividad lo requiera (la matrícula escolar ya legitima ciertos tratamientos internos, pero no cobija actividades extraprogramáticas como un club, por lo que es prudente recabar autorización adicional para participación en la OSL).
+* **Deber de información**: La OSL deberá informar a los interesados (alumnos, familias, docentes) del tratamiento de sus datos. Por ejemplo, si se elabora un fichero de inscritos a un taller, se les comunicará quién es el responsable (el propio IES/Consejería de Educación), con qué finalidad se usan los datos, bases legales, posibles cesiones (no se prevén cesiones a terceros externos sin consentimiento) y los derechos ARCO+ (acceso, rectificación, supresión, etc.). Esta información puede integrarse en las autorizaciones por escrito que se entreguen a las familias al inicio de la actividad.
+* **Seguridad y confidencialidad**: Se asegurarán medidas técnicas y organizativas para proteger los datos personales. Esto implica almacenar de forma segura los listados o documentos que contengan datos privados (bajo custodia del profesor coordinador y, idealmente, en sistemas proporcionados por la Consejería –p. ej. plataformas Medusa o Drive institucional cifrado– en lugar de cuentas personales). Cualquier dispositivo o equipo que contenga datos deberá estar protegido con contraseña. Asimismo, solo el personal autorizado (profesor coordinador, equipo directivo si corresponde) accederá a información sensible. Si la OSL habilita algún servicio web (por ejemplo, un foro interno) requerirá autenticación adecuada y respetará la privacidad de sus usuarios.
+* **Delegado de Protección de Datos (DPD/DPO)**: Los centros educativos públicos suelen contar con un Delegado de Protección de Datos designado por la Consejería. Se notificará a dicho delegado la puesta en marcha de este proyecto, especialmente si implica nuevos tratamientos de datos personales, para recibir orientación y asegurar que se incorporen al Registro de Actividades de Tratamiento del centro. El DPD podrá asesorar sobre evaluaciones de impacto si fueran necesarias, aunque en principio las actividades descritas (formativas y de divulgación) no conllevan tratamientos de alto riesgo.
+
+En resumen, la OSL actuará conforme al principio de minimización de datos (tratar solo datos imprescindibles), con transparencia hacia los afectados y aplicando las medidas de seguridad que marca la normativa. De este modo, se garantiza la protección de la privacidad de nuestros menores y comunidad escolar, evitando cualquier incumplimiento legal en este ámbito.
+
+## 4.2 Protección de menores y contacto con agentes externos
+
+Al tratarse de un proyecto que involucrará posiblemente a alumnos menores de edad y potencialmente a colaboradores externos (ej. voluntarios, ponentes de la comunidad de software libre), se deben extremar las precauciones legales relativas a la protección de menores:
+
+* **Autorizaciones parentales**: Para la participación de alumnado fuera del horario lectivo (actividades extraescolares de la OSL) será necesaria la autorización expresa de sus padres/madres o tutores legales. Esto se gestionará mediante formularios donde se detalle la naturaleza de la actividad, horarios, responsables y se obtenga el consentimiento firmado. En el caso de salidas puntuales fuera del centro (por ejemplo, visita a la universidad u otros eventos de software libre), también se recabarán los permisos pertinentes conforme al protocolo habitual de actividades extraescolares del IES.
+* **Colaboradores y voluntarios externos**: Si en el futuro se incorporan agentes externos (por ejemplo, miembros de una asociación de software libre que quieran colaborar impartiendo talleres), habrá que cumplir la legislación de voluntariado (Ley 45/2015, de 14 de octubre) y la normativa de protección de menores. En particular, toda persona ajena al centro que vaya a tener contacto habitual con menores deberá acreditar carecer de antecedentes penales por delitos sexuales o de trata de menores, aportando el certificado negativo del Registro Central de Delincuentes Sexuales antes de iniciar su colaboración [7]. Esta exigencia, introducida por la Ley 26/2015 de protección de la infancia, es de cumplimiento obligatorio y la dirección del centro debe velar por ello.Además, los voluntarios adultos firmarán una declaración responsable de no tener antecedentes por otros delitos graves (violencia, terrorismo, etc.), según el artículo 8.5 de la Ley de Voluntariado [8].
+* **Supervisión y responsabilidad**: Cualquier actividad de la OSL que implique a personas externas se realizará bajo la supervisión de personal docente del centro. Es decir, un profesor (el coordinador u otro designado) estará siempre presente en las sesiones donde haya alumnos, incluso si el contenido lo imparte un voluntario externo. De esta forma se garantiza el control educativo de la actividad y la seguridad de los menores. La entidad o personas voluntarias deberán estar formalmente autorizadas por la dirección del IES para colaborar, mediante un acuerdo escrito que delimite sus funciones, la duración de la actividad, y que deje claro que actúan de forma altruista sin relación laboral. Asimismo, se comprobará que dichas colaboraciones voluntarias no suponen sustitución de funciones propias de un docente o personal del centro, tal como recalca la Ley 45/2015 (la acción voluntaria no puede servir para cubrir puestos de trabajo estructurales)[9].
+* **Normativa específica de Canarias**: Se revisará si la Comunidad Autónoma de Canarias posee protocolos adicionales para actividades con menores o voluntariado en centros educativos. Por ejemplo, algunas CCAA cuentan con registros de entidades colaboradoras o exigen comunicar al Servicio de Inspección educativa cuando se ponen en marcha proyectos con voluntarios externos. De ser el caso, el IES Puerto de la Cruz cursará las comunicaciones u obtendrá las autorizaciones autonómicas necesarias antes de incorporar a terceros en la OSL. Adicionalmente, todas las actividades cumplirán el Plan de Prevención y Seguridad del centro: control de accesos (registro de entrada de visitantes), cumplimiento de medidas COVID u otras vigentes, ratio de adultos/alumnos adecuado, etc.
+
+En definitiva, la interacción de la OSL con menores estará enmarcada por un escrupuloso cumplimiento legal y de protección: autorización de tutores para cualquier actividad no ordinaria, supervisión constante por docentes, certificaciones y acuerdos formales para voluntarios, y respeto de protocolos de seguridad. La prioridad absoluta será garantizar el bienestar de los estudiantes participantes y la tranquilidad de sus familias en cuanto a que el proyecto se desarrolla en un entorno seguro y bajo control.
+
+## 4.3 Uso de software y licencias en el centro
+
+El hecho de introducir software libre en las instalaciones y actividades del instituto exige observar algunos aspectos normativos relacionados con el uso de software en entornos educativos:
+
+* **Licencias de software**: Por definición, el software libre que se promoverá respeta las licencias abiertas (GPL, BSD, MIT, etc.), lo cual garantiza la legalidad de su instalación y uso ilimitado en los equipos del centro. No obstante, se llevará un registro de qué software se instala en los ordenadores institucionales, asegurando que todas las aplicaciones cuentan con licencias compatibles con el entorno educativo (evitando, por ejemplo, contenido con restricciones de uso comercial si pudiera afectar). Se instruirá al personal y alumnos para que comprendan que, aunque sea libre, cada software tiene unos términos de licencia que deben respetarse (por ejemplo, mantener avisos de copyright, citar autores de material reutilizado, etc., tal como estipulan las licencias Creative Commons en recursos multimedia). La formación que impartirá la OSL en este ámbito ayudará a prevenir infracciones involuntarias de licencias.
+* **Políticas TIC del centro y la Consejería**: Antes de instalar o modificar configuraciones de los equipos del instituto, la OSL coordinará sus acciones con el responsable TIC del centro y la normativa que aplique la Consejería de Educación en materia de tecnologías. Es posible que la Consejería disponga de un catálogo de software permitido o de imágenes estandarizadas para los ordenadores de aula Medusa. La OSL respetará esos marcos, solicitando autorización para instalar sistemas operativos alternativos en equipos de aula si fuera necesario (por ejemplo, establecer arranque dual Windows/Linux en laboratorios de informática, garantizando que no se altera nada sin permiso). En caso de que el proyecto implique utilizar servicios en la nube o plataformas online libres, se verificarán los términos de servicio de dichos proveedores para asegurarse de que son compatibles con su uso por menores y con la LOPD (idealmente, se preferirán soluciones auto- alojadas en servidores del centro o de la Consejería para mayor control).
+* **Contenido abierto y propiedad intelectual**: Uno de los objetivos es publicar recursos creados por alumnos o profesores bajo licencias libres. En ese proceso, se vigilará no vulnerar derechos de autor de terceros. La OSL asesorará en el uso legal de contenidos: por ejemplo, si en un tutorial se incluye una imagen, se verificará que sea de dominio público o Creative Commons; si se comparte código, que no infrinja licencias de software privativo. Además, al publicar trabajos de alumnos, se obtendrá consentimiento de sus tutores (como explicado) y se optará por licencias abiertas que ellos comprendan. Es importante aclarar que difundir materiales con licencias libres no implica renuncia a la autoría, sino facilitar su reutilización; este matiz será parte de la formación legal impartida.
+* **Normativa de seguridad informática**: Cualquier software o sistema que se instale deberá cumplircon las normas de seguridad y filtro de contenidos del centro. Si se montara un servidor local (por ejemplo, para pruebas de un servicio web libre), se endurecerán las medidas de seguridad (firewall, acceso solo desde la red interna o VPN, etc.) y se notificará a la unidad de Tecnologías del centro para supervisión. Se cumplirá la normativa de protección de datos en sistemas: por ejemplo, si se crea una instancia de Nextcloud o wiki para uso interno, se configurará con autenticación individual y solo con los datos indispensables de los usuarios.
+
+En síntesis, el uso de software en este proyecto se hará dentro del marco legal y normativo vigente: instalando únicamente software legítimo (priorizando el libre), coordinando con las políticas TIC oficiales, respetando la propiedad intelectual de todos los contenidos manejados, y asegurando la conformidad con la normativa de seguridad de los sistemas educativos. De este modo, la transición hacia el software libre será ejemplar también en términos de cumplimiento normativo.
+
+## 4.4 Régimen de voluntariado y colaboraciones externas
+
 En caso de que la OSL evolucione para incorporar participación de voluntarios externos (por ejemplo,
-estudiantes universitarios, miembros de colectivos de software libre, antiguos alumnos, etc.), será
-necesario enmarcar estas colaboraciones bajo la legislación de voluntariado:
-• Ley de Voluntariado 45/2015: Esta ley estatal establece los derechos y deberes tanto de los
-voluntarios como de las entidades de voluntariado. Si la OSL colabora con personas externas de
-forma altruista, el IES (o la AMPA si amparase la actividad) actuaría como entidad de voluntariado
-de facto, debiendo cumplir los requisitos legales. Entre ellos, como ya se mencionó: asegurarse de
-la mayoría de edad (o autorizaciones parentales para voluntarios menores de 18), suscribir un
-seguro de accidentes y responsabilidad civil que cubra a los voluntarios (la ley exige que la
-8entidad provea cobertura a los voluntarios en sus actividades) y firmar un acuerdo donde se detallen
-las funciones, tiempos y la ausencia de remuneración.
-• No suplantación de empleo y calidad del voluntariado: Es crucial recalcar que las tareas
-asignadas a voluntarios serán complementarias y de apoyo, nunca sustituyendo funciones propias
-de profesores o personal remunerado del centro 9 . Por ejemplo, un voluntario puede coadyuvar
-en un taller práctico aportando su experiencia, pero la responsabilidad última y la planificación
-recaerán en el profesor coordinador. La ley prohíbe que el voluntariado cubra puestos de trabajo, y
-la OSL respetará plenamente este principio, manteniendo la naturaleza solidaria y auxiliar de
-cualquier colaboración externa.
-• Marco en Canarias: Canarias cuenta con la Ley 4/1998 de voluntariado de Canarias (y sus
-posteriores modificaciones) que complementa la normativa estatal. Se verificará si existe algún
-registro regional de voluntarios o convenios tipo. En algunos casos, podría convenir canalizar las
-colaboraciones a través de alguna entidad formal (por ejemplo, firmando un convenio entre el IES y
-una asociación de software libre local) para clarificar la responsabilidad y asegurar el cumplimiento
-normativo. De realizarse así, la Consejería de Educación debería autorizar dicho convenio o actividad
-mediante los cauces oficiales.
-• Coordinación y seguimiento: El profesor coordinador de la OSL será también el responsable de
-coordinar a los voluntarios, guiando sus aportaciones para que se ajusten a los objetivos
-educativos. Se llevará un registro de horas/actividades realizadas por voluntarios y se les podrá
-expedir un certificado de colaboración al finalizar, reconociendo su labor (tal y como la ley prevé
-como derecho del voluntario 10 ). También se les formará/informará inicialmente de las normas del
-centro, pautas de conducta con menores, protección de datos, etc., para que actúen alineados con la
-política del instituto.
-En resumen, la eventual participación de voluntarios externos en la OSL se regirá por un estricto
-cumplimiento de la legislación de voluntariado y protección de menores, garantizando un entorno
-seguro y legal para todos los involucrados. Inicialmente, la OSL puede funcionar solo con personal del
-centro, pero tener claras estas disposiciones permitirá ampliar la colaboración en el futuro con total
-seguridad jurídica.
-5. Plan de arranque de la iniciativa
-Para asegurar un inicio exitoso, se propone un plan de arranque escalonado que cubre las primeras fases
-de creación e implantación de la mini OSL. Este plan contempla actividades piloto, recursos mínimos
-necesarios, uso de infraestructuras disponibles y los pasos concretos a seguir:
-5.1 Fase de preparación (Mes 0-1): - Presentación y aprobación inicial: El profesor impulsor presentará
-esta propuesta a la Dirección del IES y al Claustro, buscando el visto bueno para iniciar la experiencia. Se
-determinará la modalidad inicial (como se sugirió, probablemente extraescolar voluntaria) y se informará al
-Servicio de Inspección si fuera preceptivo. Obtenida la aprobación interna, se designará formalmente al
-coordinador de la OSL (el profesor impulsor u otro que se asigne) y se incluirá una referencia en la PGA
-vigente o en un anexo de actividades extraescolares autorizadas. - Difusión interna y sondeo: Anunciada
-la creación de la OSL, se realizará una campaña informativa dentro del centro. Por ejemplo, una breve
-presentación en una reunión de profesores para invitarlos a participar o sugerir necesidades, así como
-9carteles o una circular a los alumnos explicando qué es la OSL y animando a inscribirse en las primeras
-actividades. Podría prepararse un pequeño formulario para que alumnos interesados se apunten (esto
-también ayudará a dimensionar la participación inicial y saber en qué franjas horarias conviene realizar las
-sesiones). - Infraestructura básica: En esta fase se habilitará un espacio físico y virtual para la OSL.
-Físicamente, se puede asignar un aula de informática o un taller con ordenadores durante una tarde a la
-semana para las reuniones/actividades. Virtualmente, se creará un apartado en la web del instituto o en la
-plataforma educativa del centro dedicado a la OSL (allí se publicarán noticias, recursos y calendarios).
-También sería útil abrir un correo electrónico específico (ejemplo: osl@iespuertodelacruz.es) y, si procede, un
-canal de comunicación (un grupo de Classroom, Moodle o similar) para coordinarse con los participantes.
-5.2 Fase de piloto inicial (Mes 2-5): - Actividad inaugural: Lanzamiento oficial de la OSL con una actividad
-motivadora. Por ejemplo, un “Install Party” o fiesta de instalación de Linux abierta a toda la comunidad
-educativa, donde el equipo de la OSL guíe a quienes traigan sus portátiles en la instalación de un sistema
-operativo libre o software libre educativo. Esta actividad serviría de inauguración y publicidad práctica de la
-iniciativa. Se documentará con fotos (respetando permisos) y se difundirá su éxito para ganar tracción. -
-Talleres básicos para alumnos: Durante estos primeros meses, realizar talleres quincenales (o
-mensuales) para estudiantes. Temáticas sugeridas: Introducción a GNU/Linux (manejo básico, recursos
-disponibles), Ofimática Libre con LibreOffice, Programación creativa con software libre (por ejemplo Scratch
-o Python), Diseño gráfico libre (Inkscape/GIMP básico) o Seguridad y privacidad digital usando
-herramientas libres. Estos talleres de 1-2 sesiones cada uno darán contenido a la OSL y atraerán a distintos
-perfiles de alumnos. Conviene iniciar con niveles básicos para no intimidar a los principiantes, e ir elevando
-el nivel según la demanda. - Formación para docentes: En paralelo, ofrecer una o dos jornadas
-formativas para profesores del centro. Podría ser en sesiones de tarde o aprovechando alguna reunión de
-coordinación TIC. Por ejemplo: un taller de “Recursos educativos abiertos y software libre para el aula”,
-mostrando repositorios de contenidos libres (como CeDec, Proyecto EDIA del INTEF, etc.) y herramientas
-útiles en distintas materias. También una sesión sobre “Gestión de licencias y copyright en materiales
-docentes”, para ayudar al profesorado a entender cómo usar obras Creative Commons o publicar sus
-propios materiales. - Acompañamiento y soporte: Establecer un horario de “ventanilla” (p. ej. los miércoles
-de 16:00-17:00) donde el coordinador esté disponible en el aula designada para resolver dudas o ayudar
-con instalaciones de forma personalizada. Esto permitiría que, fuera de los talleres estructurados,
-cualquier alumno o colega docente que necesite ayuda con software libre sepa cuándo y dónde acudir. -
-Documentación de la experiencia: Conforme se realizan estas actividades, la OSL irá generando
-documentos: guías breves hechas por el propio coordinador o los voluntarios (ej. “cómo instalar
-LibreOffice”, “10 extensiones educativas de Linux”), listados de software recomendado, presentaciones
-usadas en talleres, etc. Desde el inicio se recopilarán estos recursos para publicarlos en la sección web de la
-OSL, creando así un pequeño repositorio de conocimiento abierto del instituto. Asimismo, se recopilarán
-comentarios de participantes (feedback) y métricas simples (asistencia a talleres, número de equipos
-migrados a Linux, etc.) para evaluar impacto.
-5.3 Fase de consolidación (Mes 6-10): - Evaluación intermedia: Tras unos meses de andadura (por
-ejemplo, a mitad de curso), el coordinador elaborará un informe breve para la Dirección resumiendo las
-actividades realizadas, la acogida por parte de alumnos y profesores, dificultades encontradas y logros
-(casos de éxito como profesores que adoptaron una herramienta libre, alumnos que instalaron Linux en
-casa, etc.). Este informe servirá para valorar el progreso y ajustar el plan de acción para el resto del año. -
-Extensión de actividades: Según la demanda y éxito, en esta etapa se puede ampliar el alcance. Por
-ejemplo, organizar un concurso interno de proyectos hechos con software libre (como crear un vídeo con
-software libre o programar un juego sencillo), con el fin de incentivar la participación activa del alumnado.
-10Otras ideas son: invitar a un ponente reconocido (ej. un profesor universitario de la OSL de la ULL o un
-experto local) para una charla magistral sobre software libre y sociedad; realizar un día del “Swap” en que
-los alumnos intercambien experiencias entre sí sobre apps libres que usan; lanzar una campaña de
-migración paulatina en la sala de profesores (por ejemplo, incentivar que las actas o documentos internos
-se editen con LibreOffice en formato ODF, ofreciendo la OSL soporte para ello). - Colaboración con TIC
-institucionales: Es buen momento para contactar con organismos mayores. Por ejemplo, consultar al
-equipo de Tecnología Educativa de la Consejería sobre programas de migración a software libre (algunas
-consejerías tienen distribuciones propias o soporte para Linux en aulas). Igualmente, estrechar lazos con la
-OSL de la Universidad de La Laguna (ULL) o de la Universidad de Las Palmas (ULPGC), solicitando asesoría o
-material formativo que pudieran compartir. Esta conexión externa puede brindar respaldo y situar al
-instituto en una red de centros pioneros en software libre.
-5.4 Fase de evaluación final y siguiente curso (Mes 11-12): - Cierre del piloto y evaluación final: Al
-concluir el primer año escolar de implementación, se llevará a cabo una evaluación global. El coordinador
-de la OSL redactará una memoria final detallando todas las actividades, el grado de consecución de los
-objetivos operativos, participación cuantitativa y cualitativa, logros (por ejemplo, “X equipos del aula de
-informática convertidos a dual boot con Linux; Y profesores formados; Z alumnos participantes
-regularmente; recursos creados publicados...”) y también retos o áreas de mejora identificados. -
-Institucionalización en PGA: Con esos resultados en mano, se propondrá formalmente la inclusión de la
-OSL en la Programación General Anual del siguiente curso como proyecto permanente. La memoria e
-informe de resultados servirán de base para justificar ante Claustro y Consejo Escolar la continuidad y
-formalización. Se definirán ya objetivos para el segundo año, idealmente más ambiciosos gracias a la
-experiencia adquirida. - Ajustes de recursos: Para la siguiente anualidad, se valorará la necesidad de
-recursos adicionales: por ejemplo, solicitar al centro un pequeño presupuesto para la OSL (para comprar
-discos duros externos, USBs booteables, libros de consulta, camisetas promocionales, etc.), o asegurar que
-el coordinador disponga de horas de coordinación reconocidas (podría incluirse dentro de las horas de
-Proyecto de Innovación o en la figura de Coordinador TIC si se amplían sus funciones). - Plan de mejora
-continua: Establecer para cursos sucesivos un plan de mejora basado en lo aprendido. Por ejemplo, si
-hubo poca asistencia de cierto nivel educativo, ajustar la comunicación o contenidos; si se detectó interés
-en áreas específicas (p. ej. robótica libre, impresión 3D con hardware libre), incorporarlas a la oferta de la
-OSL; si algún obstáculo técnico surgió (p. ej. dificultades con la red del centro al instalar Linux), trabajar con
-antelación con el departamento técnico para solventarlo.
-Este plan de arranque está diseñado para minimizar riesgos y asegurar una implantación paulatina
-pero firme. Empezando con acciones sencillas y aumentando progresivamente la escala, la mini OSL podrá
-consolidarse de forma orgánica. Cada fase tiene objetivos claros y entregables (actividades realizadas,
-documentación generada, evaluaciones) que permitirán rectificar el rumbo si fuera necesario. Además, se
-sustenta en recursos realistas: el compromiso principal es humano (la dedicación del profesor coordinador
-y colaboradores), mientras que las infraestructuras requeridas ya existen en su mayoría (aulas,
-ordenadores, internet) y los costos son muy reducidos. Con este plan, al cabo de un año la OSL debería
-estar no solo funcionando, sino integrada en la cultura del centro y lista para dar un salto cualitativo en
-años venideros.
-116. Recomendaciones de seguridad técnica y gobernanza
+estudiantes, miembros de colectivos de software libre, antiguos alumnos, etc.), será necesario enmarcar estas colaboraciones bajo la legislación de voluntariado:
+
+* **Ley de Voluntariado 45/2015**: Esta ley estatal establece los derechos y deberes tanto de los voluntarios como de las entidades de voluntariado. Si la OSL colabora con personas externas de forma altruista, el IES (o la AMPA si amparase la actividad) actuaría como entidad de voluntariado de facto, debiendo cumplir los requisitos legales. Entre ellos, como ya se mencionó: asegurarse de la mayoría de edad (o autorizaciones parentales para voluntarios menores de 18), suscribir un seguro de accidentes y responsabilidad civil que cubra a los voluntarios (la ley exige que la entidad provea cobertura a los voluntarios en sus actividades) y firmar un acuerdo donde se detallen las funciones, tiempos y la ausencia de remuneración.
+* **No suplantación de empleo y calidad del voluntariado**: Es crucial recalcar que las tareas asignadas a voluntarios serán complementarias y de apoyo, nunca sustituyendo funciones propias de profesores o personal remunerado del centro [9]. Por ejemplo, un voluntario puede coadyuvar en un taller práctico aportando su experiencia, pero la responsabilidad última y la planificación recaerán en el profesor coordinador. La ley prohíbe que el voluntariado cubra puestos de trabajo, y la OSL respetará plenamente este principio, manteniendo la naturaleza solidaria y auxiliar de cualquier colaboración externa.
+* **Marco en Canarias**: Canarias cuenta con la Ley 4/1998 de voluntariado de Canarias (y sus posteriores modificaciones) que complementa la normativa estatal. Se verificará si existe algún registro regional de voluntarios o convenios tipo. En algunos casos, podría convenir canalizar las colaboraciones a través de alguna entidad formal (por ejemplo, firmando un convenio entre el IES y una asociación de software libre local) para clarificar la responsabilidad y asegurar el cumplimiento normativo. De realizarse así, la Consejería de Educación debería autorizar dicho convenio o actividad mediante los cauces oficiales.
+* **Coordinación y seguimiento**: El profesor coordinador de la OSL será también el responsable de coordinar a los voluntarios, guiando sus aportaciones para que se ajusten a los objetivos educativos. Se llevará un registro de horas/actividades realizadas por voluntarios y se les podrá expedir un certificado de colaboración al finalizar, reconociendo su labor (tal y como la ley prevé como derecho del voluntario 10 ). También se les formará/informará inicialmente de las normas del centro, pautas de conducta con menores, protección de datos, etc., para que actúen alineados con la política del instituto.
+
+En resumen, la eventual participación de voluntarios externos en la OSL se regirá por un estricto cumplimiento de la legislación de voluntariado y protección de menores, garantizando un entorno seguro y legal para todos los involucrados. Inicialmente, la OSL puede funcionar solo con personal del centro, pero tener claras estas disposiciones permitirá ampliar la colaboración en el futuro con total seguridad jurídica.
+
+# 5. Plan de arranque de la iniciativa
+
+Para asegurar un inicio exitoso, se propone un plan de arranque escalonado que cubre las primeras fases de creación e implantación de la mini OSL. Este plan contempla actividades piloto, recursos mínimos necesarios, uso de infraestructuras disponibles y los pasos concretos a seguir:
+
+## 5.1 Fase de preparación (Mes 0-1)
+
+- **Presentación y aprobación inicial**: El profesor impulsor presentará esta propuesta a la Dirección del IES y al Claustro, buscando el visto bueno para iniciar la experiencia. Se determinará la modalidad inicial (como se sugirió, probablemente extraescolar voluntaria) y se informará al Servicio de Inspección si fuera preceptivo. Obtenida la aprobación interna, se designará formalmente al coordinador de la OSL (el profesor impulsor u otro que se asigne) y se incluirá una referencia en la PGA vigente o en un anexo de actividades extraescolares autorizadas. - **Difusión interna y sondeo**: Anunciada la creación de la OSL, se realizará una campaña informativa dentro del centro. Por ejemplo, una breve presentación en una reunión de profesores para invitarlos a participar o sugerir necesidades, así como carteles o una circular a los alumnos explicando qué es la OSL y animando a inscribirse en las primeras actividades. Podría prepararse un pequeño formulario para que alumnos interesados se apunten (esto también ayudará a dimensionar la participación inicial y saber en qué franjas horarias conviene realizar las sesiones).
+- **Infraestructura básica**: En esta fase se habilitará un espacio físico y virtual para la OSL.Físicamente, se puede asignar un aula de informática o un taller con ordenadores durante una tarde a la semana para las reuniones/actividades. Virtualmente, se creará un apartado en la web del instituto o en la plataforma educativa del centro dedicado a la OSL (allí se publicarán noticias, recursos y calendarios). También sería útil abrir un correo electrónico específico (ejemplo: osl.iespto@proton.me) y, si procede, un canal de comunicación (un grupo, Moodle o similar) para coordinarse con los participantes.
+
+## 5.2 Fase de piloto inicial (Mes 2-5)
+
+- **Actividad inaugural**: Lanzamiento oficial de la OSL con una actividad motivadora. Por ejemplo, un “Install Party” o fiesta de instalación de Linux abierta a toda la comunidad educativa, donde el equipo de la OSL guíe a quienes traigan sus portátiles en la instalación de un sistema operativo libre o software libre educativo. Esta actividad serviría de inauguración y publicidad práctica de la iniciativa. Se documentará con fotos (respetando permisos) y se difundirá su éxito para ganar tracción.
+- **Talleres básicos para alumnos**: Durante estos primeros meses, realizar talleres quincenales (o mensuales) para estudiantes. Temáticas sugeridas: Introducción a GNU/Linux (manejo básico, recursos disponibles), Ofimática Libre con LibreOffice, Programación creativa con software libre (por ejemplo Scratch, Python o Ruby), Diseño gráfico libre (Inkscape/GIMP básico) o Seguridad y privacidad digital usando herramientas libres. Estos talleres de 1-2 sesiones cada uno darán contenido a la OSL y atraerán a distintos perfiles de alumnos. Conviene iniciar con niveles básicos para no intimidar a los principiantes, e ir elevando el nivel según la demanda.
+- **Formación para docentes**: En paralelo, ofrecer una o dos jornadas formativas para profesores del centro. Podría ser en sesiones de tarde o aprovechando alguna reunión de coordinación TIC. Por ejemplo: un taller de “Recursos educativos abiertos y software libre para el aula”,
+mostrando repositorios de contenidos libres (como CeDec, Proyecto EDIA del INTEF, etc.) y herramientas útiles en distintas materias. También una sesión sobre “Gestión de licencias y copyright en materiales docentes”, para ayudar al profesorado a entender cómo usar obras Creative Commons o publicar sus propios materiales.
+- **Acompañamiento y soporte**: Establecer un horario de “ventanilla” (p. ej. los martes
+de 17:00-18:00) donde el coordinador esté disponible en el aula designada para resolver dudas o ayudar con instalaciones de forma personalizada. Esto permitiría que, fuera de los talleres estructurados, cualquier alumno o colega docente que necesite ayuda con software libre sepa cuándo y dónde acudir.
+- **Documentación de la experiencia**: Conforme se realizan estas actividades, la OSL irá generando documentos: guías breves hechas por el propio coordinador o los voluntarios (ej. “cómo instalar LibreOffice”, “10 extensiones educativas de Linux”), listados de software recomendado, presentaciones usadas en talleres, etc. Desde el inicio se recopilarán estos recursos para publicarlos en la sección web de la OSL, creando así un pequeño repositorio de conocimiento abierto del instituto. Asimismo, se recopilarán comentarios de participantes (feedback) y métricas simples (asistencia a talleres, número de equipos migrados a Linux, etc.) para evaluar impacto.
+
+## 5.3 Fase de consolidación (Mes 6-10)
+
+- **Evaluación intermedia**: Tras unos meses de andadura (por ejemplo, a mitad de curso), el coordinador elaborará un informe breve para la Dirección resumiendo las actividades realizadas, la acogida por parte de alumnos y profesores, dificultades encontradas y logros (casos de éxito como profesores que adoptaron una herramienta libre, alumnos que instalaron Linux en casa, etc.). Este informe servirá para valorar el progreso y ajustar el plan de acción para el resto del año.
+
+- **Extensión de actividades**: Según la demanda y éxito, en esta etapa se puede ampliar el alcance. Por ejemplo, organizar un concurso interno de proyectos hechos con software libre (como crear un vídeo con software libre o programar un juego sencillo), con el fin de incentivar la participación activa del alumnado. Otras ideas son: invitar a un ponente reconocido (ej. un profesor universitario de la OSL de la ULL o un experto local) para una charla magistral sobre software libre y sociedad; realizar un día del “Swap” en que los alumnos intercambien experiencias entre sí sobre apps libres que usan; lanzar una campaña de migración paulatina en la sala de profesores (por ejemplo, incentivar que las actas o documentos internos se editen con LibreOffice en formato ODF, ofreciendo la OSL soporte para ello).
+- **Colaboración con TIC institucionales**: Es buen momento para contactar con organismos mayores. Por ejemplo, consultar al equipo de Tecnología Educativa de la Consejería sobre programas de migración a software libre (algunas consejerías tienen distribuciones propias o soporte para Linux en aulas). Igualmente, estrechar lazos con las OSL de alguna Universidad, solicitando asesoría o material formativo que pudieran compartir. Esta conexión externa puede brindar respaldo y situar al instituto en una red de centros pioneros en software libre.
+
+## 5.4 Fase de evaluación final y siguiente curso (Mes 11-12)
+
+- **Cierre del piloto y evaluación final**: Al concluir el primer año escolar de implementación, se llevará a cabo una evaluación global. El coordinador de la OSL redactará una memoria final detallando todas las actividades, el grado de consecución de los objetivos operativos, participación cuantitativa y cualitativa, logros (por ejemplo, “X equipos del aula de informática convertidos a dual boot con Linux; Y profesores formados; Z alumnos participantes regularmente; recursos creados publicados...”) y también retos o áreas de mejora identificados.
+- **Institucionalización en PGA**: Con esos resultados en mano, se propondrá formalmente la inclusión de la OSL en la Programación General Anual del siguiente curso como proyecto permanente. La memoria e informe de resultados servirán de base para justificar ante Claustro y Consejo Escolar la continuidad y formalización. Se definirán ya objetivos para el segundo año, idealmente más ambiciosos gracias a la experiencia adquirida.
+- **Ajustes de recursos**: Para la siguiente anualidad, se valorará la necesidad de recursos adicionales: por ejemplo, solicitar al centro un pequeño presupuesto para la OSL (para comprar discos duros externos, USBs booteables, libros de consulta, camisetas promocionales, etc.), o asegurar que el coordinador disponga de horas de coordinación reconocidas (podría incluirse dentro de las horas de Proyecto de Innovación o en la figura de Coordinador TIC si se amplían sus funciones).
+- **Plan de mejora continua**: Establecer para cursos sucesivos un plan de mejora basado en lo aprendido. Por ejemplo, si hubo poca asistencia de cierto nivel educativo, ajustar la comunicación o contenidos; si se detectó interés en áreas específicas (p. ej. robótica libre, impresión 3D con hardware libre), incorporarlas a la oferta de la OSL; si algún obstáculo técnico surgió (p. ej. dificultades con la red del centro al instalar Linux), trabajar con antelación con el departamento técnico para solventarlo.
+
+Este plan de arranque está diseñado para minimizar riesgos y asegurar una implantación paulatina pero firme. Empezando con acciones sencillas y aumentando progresivamente la escala, la mini OSL podrá consolidarse de forma orgánica. Cada fase tiene objetivos claros y entregables (actividades realizadas, documentación generada, evaluaciones) que permitirán rectificar el rumbo si fuera necesario. Además, se sustenta en recursos realistas: el compromiso principal es humano (la dedicación del profesor coordinador y colaboradores), mientras que las infraestructuras requeridas ya existen en su mayoría (aulas, ordenadores, internet) y los costos son muy reducidos. Con este plan, al cabo de un año la OSL debería estar no solo funcionando, sino integrada en la cultura del centro y lista para dar un salto cualitativo en años venideros.
+
+# 6. Recomendaciones de seguridad técnica y gobernanza
 La puesta en marcha de la OSL conlleva también consideraciones importantes en materia de seguridad
 informática y de gobernanza del proyecto. A continuación se presentan recomendaciones clave para
 garantizar que la OSL opere de forma segura, organizada y sostenible en el tiempo.
