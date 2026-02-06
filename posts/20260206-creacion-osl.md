@@ -17,6 +17,8 @@ Contamos con la experiencia de colaboradores apasionados por la tecnología libr
 - Andrés Nacimiento: Ingeniero experto en Ciberseguridad y premiado por proyectos de Software Libre.
 - David Vargas: Ingeniero Informático y profesor de nuestro centro (FP Sistemas).
 
+> [Why Open Source Misses the Point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.html.en)
+
 ## ¡Ven a vernos!
 
 ¿Tienes dudas? ¿Quieres migrar tu equipo a Linux? ¿Buscas recursos abiertos para tus clases?
