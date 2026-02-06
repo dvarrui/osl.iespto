@@ -10,7 +10,7 @@ La OSL no es solo soporte técnico, es un motor de cambio. Nuestros objetivos pr
 - Apoyo Docente: Integración de recursos abiertos en el currículo escolar.
 - Comunidad: Fomentamos valores de colaboración, participación y transparencia.
 
-## Un equipo con ADN "Open Source"
+## Un equipo con ADN "Software Libre"
 
 Contamos con la experiencia de colaboradores apasionados por la tecnología libre:
 - Eduardo Nacimiento: Dr. en Ingeniería y experto en Educación (ex-miembro de la OSL ULL).
