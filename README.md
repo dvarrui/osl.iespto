@@ -12,7 +12,7 @@ Comunidad educativa de usuarios de la Oficina de Software Libre (OSL) del IES Pu
 * Elaboración y publicación de recursos abiertos.
 * Soporte y consulta permanente.
 
-**Proyecto:**: * Propuesta de creación de la Mini Oficina del Software Libre - IES Puerto de la cruz.
+**Proyecto:**: Propuesta de creación de la Mini Oficina del Software Libre - IES Puerto de la cruz.
 * [Formato Markdown](./docs/propuesta.md).
 * [Formato PDF](./pdf/Proyecto_Mini_Oficina_de_Software_Libre_OSL_en_IES_Puerto_de_la.pdf)
 
