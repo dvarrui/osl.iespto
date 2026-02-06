@@ -1,3 +1,5 @@
+[<< back](../README.md)
+
 # ¡Nace la Oficina de Software Libre (OSL) del IES Puerto de la Cruz!
 
 En nuestro compromiso por una educación abierta, ética y colaborativa, nos hace mucha ilusión anunciar la creación de la OSL IES Puerto de la Cruz. Un espacio dedicado a romper barreras tecnológicas y fomentar el uso de herramientas libres en nuestro centro.
