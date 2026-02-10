@@ -18,7 +18,8 @@ Comunidad educativa de usuarios de la Oficina de Software Libre (OSL) del IES Pu
 
 ## Posts
 
-* [20260226: Creación de la OSL](./posts/20260206-creacion-osl.md)
+* [20260206: Creación de la OSL](./posts/20260206-creacion-osl.md)
+* [20260210: Noticia en el blob del centro](./posts/20260210-noticia.md)
 
 ## Contacto
 
