@@ -2,7 +2,7 @@
 
 # 2026
 
-# 20260207 - Linux y Valve (www.3djuegos.com)
+## 20260207 - Linux y Valve (www.3djuegos.com)
 
 Linux y Valve avanzan a toda prisa para competir con Microsoft en su objetivo por convertirse en un sistema operativo mejor para videojuegos.
 
