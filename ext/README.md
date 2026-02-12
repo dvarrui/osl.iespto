@@ -2,6 +2,12 @@
 
 # 2026
 
+# 20260207 - Linux y Valve (www.3djuegos.com)
+
+Linux y Valve avanzan a toda prisa para competir con Microsoft en su objetivo por convertirse en un sistema operativo mejor para videojuegos.
+
+Enlace: https://www.3djuegos.com/linux/noticias/linux-valve-avanzan-a-toda-prisa-para-competir-microsoft-su-objetivo-convertirse-sistema-operativo-mejor-para-videojuegos/amp
+
 ## 20260209 - Europa dice NO a Windows (Computer Hoy)
 
 Europa dice NO a Windows 11, acelera su transición al software libre para conseguir la soberanía digital. La Comisión Europea recomienda no instalar Windows 11, pretenden iniciar la transición a sistemas operativos de código abierto, aunque no será sencillo.
@@ -10,7 +16,7 @@ Enlace: https://search.app/ECS5D
 
 ## 20260211 - Linux supera a Windows (elhacker.NET @elhackernet)
 
-Es oficial, Linux ya supera a Windows en su propio terreno: los nuevos procesadores de Intel dejan en evidencia a Microsof
+Es oficial, Linux ya supera a Windows en su propio terreno: los nuevos procesadores de Intel dejan en evidencia a Microsoft.
 
 Enlaces:
 * Post de X: https://x.com/elhackernet/status/2021585018892538038
