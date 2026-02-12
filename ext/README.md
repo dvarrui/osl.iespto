@@ -6,9 +6,7 @@
 
 Europa dice NO a Windows 11, acelera su transición al software libre para conseguir la soberanía digital. La Comisión Europea recomienda no instalar Windows 11, pretenden iniciar la transición a sistemas operativos de código abierto, aunque no será sencillo.
 
-Enlace:
-* https://search.app/ECS5D
-
+Enlace: https://search.app/ECS5D
 
 ## 20260211 - Linux supera a Windows (elhacker.NET @elhackernet)
 
