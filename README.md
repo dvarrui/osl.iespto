@@ -24,6 +24,6 @@ Comunidad educativa de usuarios de la Oficina de Software Libre (OSL) del IES Pu
 ## Contacto
 
 * **Email**: osl.iespto@proton.me
-* **Telegram**: @osl.iespto
+* **Telegram**: https://t.me/osliespto
 * **Atención presencial**: Martes por la tarde en el centro (previa cita).
 
