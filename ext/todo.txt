@@ -93,3 +93,14 @@ Pelafustitch
 31 ene.
 Jajajajaj cómo le inventan cosas, la mitad de la info es falsa XD
 
+---
+
+🎮 Linux hacked onto a PS5 to turn Sony's console into a Steam Machine
+
+In light of Sony's heavily-rumored decision to pivot away from PC releases, one security engineer took matters into his own hands and turned the PS5 into a PC. Andy Nguyen ported Linux to a PlayStation 5 console, hacking through several layers of hardware and software barriers thanks to full-chain exploits. Not only did he manage to get Linux running, but the modded console actually performs well in games.
+
+Now that it's a PC, it can do anything a standard computer can, which includes running GTA V Enhanced Edition via Steam. It's set to 1440p resolution, with ray tracing enabled as denoted by the "High RT" preset in settings. The gameplay is steady at a smooth 60 FPS with barely any fluctuation, and even the sound is working. But the PS5 Slim doesn't have the thermal headroom to keep up with those numbers and simply overheats if pushed any harder. To achieve this, Andy used a PS5 running significantly older firmware, between 1.0 and 2.0, that was released around five years ago. 
+
+In a way, this is a tease of what the upcoming Steam Machine will be since it'll feature similar performance and run SteamOS, based on Linux. Through Proton, it can play pretty much any Windows game, sometimes with even a slight FPS bump.
+
+@QSIMedia
