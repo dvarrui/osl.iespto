@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro Target</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; line-height: 1.6; }
+        .card { border: 1px solid #ccc; padding: 20px; border-radius: 8px; max-width: 400px; }
+        input, select { width: 100%; padding: 8px; margin: 10px 0; }
+        button { background: #007BFF; color: white; border: none; padding: 10px 15px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Nuevo Registro</h2>
+        <form action="/submit" method="post">
+            <label>Nombre:</label>
+            <input type="text" name="name" placeholder="Ej. Admin" required>
+
+            <label>Acción:</label>
+            <select name="choice">
+                <option value="Aprender">Aprender</option>
+                <option value="Titular">Titular</option>
+            </select>
+
+            <button type="submit">Guardar en YAML</button>
+        </form>
+    </div>
+</body>
+</html>

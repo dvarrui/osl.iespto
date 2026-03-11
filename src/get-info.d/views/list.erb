@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Conexiones</title>
+    <style>
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #007BFF; color: white; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .btn { text-decoration: none; background: #28a745; color: white; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h2>Historial de Registros (YAML)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>IP de Conexión</th>
+                <th>Nombre</th>
+                <th>Elección</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% @records.each do |record| %>
+            <tr>
+                <td><strong><%= record['ip'] %></strong></td>
+                <td><%= record['name'] %></td>
+                <td><%= record['choice'] %></td>
+            </tr>
+            <% end %>
+        </tbody>
+    </table>
+    <br><br>
+    <a href="/target" class="btn">Registrar otro</a>
+</body>
+</html>
